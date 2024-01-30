@@ -1,0 +1,10 @@
+{
+    "type" : "GenericCrafter",
+    "outputItem": {
+        "item": "phase-fabric",
+        "amount": 1
+    },
+    "outputLiquid": {
+        "liquid": "ozone/0.01666"
+    }
+}

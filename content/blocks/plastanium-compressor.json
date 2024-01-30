@@ -1,0 +1,11 @@
+{
+    "type" : "GenericCrafter",
+    "outputItems": {
+        "item": ["plastanium", "pure-carbon"],
+        "amount": 1
+
+    },
+    "outputLiquid": {
+        "liquid": ["ozone/0.016666", "hydrogen/0.016666", "sulfur/0.016666"]
+    }
+}

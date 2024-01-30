@@ -1,0 +1,10 @@
+{
+    "type" : "GenericCrafter",
+    "outputItem": {
+        "item": "silicon",
+        "amount": 1
+    },
+    "outputLiquid": {
+        "liquid": "co2/0.033333"
+    }
+}

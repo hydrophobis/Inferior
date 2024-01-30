@@ -1,0 +1,12 @@
+{
+    "name": "S",
+    "description": "Hot sulfur gas!",
+    "heatCapacity": 0,
+    "explosiveness": 0,
+    "temperature": 0.3,
+    "gas": true,
+    "color": "5a9443",
+    "gasColor": "5a9443",
+    "flammability": 0,
+    "coolant": false
+  }

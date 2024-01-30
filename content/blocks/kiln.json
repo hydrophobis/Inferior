@@ -1,0 +1,11 @@
+{
+    "type" : "GenericCrafter",
+    "outputItem": {
+        "item": "metaglass",
+        "amount": 1
+    },
+    "outputLiquid": {
+        "liquid": "ozone",
+        "amount": 2
+    }
+}

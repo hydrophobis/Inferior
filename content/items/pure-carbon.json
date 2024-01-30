@@ -1,0 +1,11 @@
+{
+    "name": "Pure Carbon",
+    "description": "Pure carbon from chemical reactions",
+    "cost": 2.5,
+    "color": "262626",
+    "flammability": 0,
+    "explosiveness": 0,
+    "research": {
+      "parent": "coal"
+    }
+}

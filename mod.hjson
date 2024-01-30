@@ -1,0 +1,23 @@
+{
+    displayName: Chemistry
+    repo: CamoGekko/Chemistry
+    name: chem
+
+    author:
+        '''
+        
+        CamoGekko
+
+        '''
+
+    description:
+        '''
+        
+        Adds a much more realistic chemistry feel to crafting
+
+        '''
+
+    subtitle: ""
+    minGameVersion: 144.3
+    version: "1.0"
+}
