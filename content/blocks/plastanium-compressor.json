@@ -1,5 +1,4 @@
 {
-    "type" : "GenericCrafter",
     "outputItems": {
         "item": ["plastanium", "pure-carbon"],
         "amount": 1
