@@ -10,6 +10,6 @@
     "flammability": 0,
     "coolant": false,
     "research": {
-      "parent": "silicon-smelter"
+      "parent": "silicon"
     }
   }

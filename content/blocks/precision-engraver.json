@@ -6,8 +6,8 @@
     "drawer": {"type": "DrawMulti", "drawers": [ {"type": "DrawWeave", "suffix": "-weave"}, {"type": "DrawDefault"} ] },
     "health": 340,
     "itemCapacity": 5,
-    "size": 2,
-    "craftTime": 300,
+    "size": 1,
+    "craftTime": 120,
     "health": 240,
     "hasPower": true,
     "hasLiquids": true,
@@ -51,9 +51,12 @@
       {
         "item": "titanium",
         "amount": 90
+      },
+      {
+        "item": "vacuum-tube",
+        "amount": 15
       }
  
     ],
-    "category": "crafting",
-    "research": "kiln"
+    "research": "alloy-smelter"
   }
