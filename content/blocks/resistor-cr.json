@@ -1,10 +1,10 @@
 {
     "type": "GenericCrafter",
-    "name": "Solder Multi-Machine",
-    "description": "Mines Sn from the ground to use with Pb to make PbSn",
-    "outputLiquid": {"liquid": "solder", "amount": 1},
+    "name": "Resistor Shaping Machine",
+    "description": "Shapes various materials into resistors",
+    "outputItem": {"item": "resistor", "amount": 1},
     "drawer": {"type": "DrawDefault"},
-    "health": 340,
+    "health": 130,
     "itemCapacity": 5,
     "size": 2,
     "craftTime": 300,
@@ -12,33 +12,32 @@
     "hasLiquids": true,
     "hasItems": true,
     "consumes": {
-      "power": 1.9,
+      "power": 0.7,
       "items": {
         "items": [
           {
-            "item": "lead",
+            "item": "titanium",
+            "amount": 1
+          },
+          {
+            "item": "graphite",
             "amount": 1
           }
         ]
       }
     },
     "requirements": [
-  
       {
-        "item": "vacuum-tube",
-        "amount": 10
-      },
-      {
-        "item": "lead",
-        "amount": 30
+        "item": "copper",
+        "amount": 70
       }      ,
       {
         "item": "copper-silicate",
-        "amount": 100
+        "amount": 30
       },
       {
-        "item": "titanium",
-        "amount": 200
+        "item": "silicon",
+        "amount": 15
       }
  
     ],

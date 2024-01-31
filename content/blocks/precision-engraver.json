@@ -3,7 +3,7 @@
     "name": "Precision Engraver",
     "description": "Creates chips to be used in simple elctronics",
     "outputItem": {"item": "circuit", "amount": 1},
-    "drawer": {"type": "DrawMulti", "drawers": [ {"type": "DrawWeave", "suffix": "-weave"}, {"type": "DrawDefault"} ] },
+    "drawer": {"type": "DrawDefault"},
     "itemCapacity": 5,
     "size": 1,
     "craftTime": 120,
@@ -11,6 +11,7 @@
     "hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
+    "updateEffect": "sparkExplosion",
     "consumes": {
       "power": 1.5,
       "items": {
@@ -57,5 +58,6 @@
       }
  
     ],
+    "category": "crafting",
     "research": "alloy-smelter"
   }

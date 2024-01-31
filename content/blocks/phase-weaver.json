@@ -4,7 +4,7 @@
         "amount": 1
     },
     "outputLiquid": {
-        "liquid": "ozone"
+        "liquid": "ozone",
         "amount": "0.0334"
     }
 }
