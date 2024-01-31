@@ -8,5 +8,8 @@
     "color": "4a4a4a",
     "gasColor": "4a4a4a",
     "flammability": 0,
-    "coolant": false
+    "coolant": false,
+    "research": {
+      "parent": "silicon-smelter"
+    }
   }
