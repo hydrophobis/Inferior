@@ -2,7 +2,7 @@
     "type": "GenericCrafter",
     "name": "Wiremill",
     "description": "Uses titanium to make wires",
-    "outputItem": {"item": "vacuum-tube", "amount": 1},
+    "outputItem": {"item": "wire", "amount": 1},
     "drawer": {"type": "DrawDefault"},
     "itemCapacity": 5,
     "size": 2,
