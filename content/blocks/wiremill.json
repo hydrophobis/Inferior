@@ -1,0 +1,42 @@
+{
+    "type": "GenericCrafter",
+    "name": "Wiremill",
+    "description": "Uses titanium to make wires",
+    "outputItem": {"item": "vacuum-tube", "amount": 1},
+    "drawer": {"type": "DrawDefault"},
+    "itemCapacity": 5,
+    "size": 2,
+    "craftTime": 90,
+    "health": 500,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "consumes": {
+      "power": 0.8,
+      "items": {
+        "items": [
+          {
+            "item": "titanium",
+            "amount": 1
+          }
+        ]
+      }
+    },
+    "requirements": [
+  
+      {
+        "item": "copper",
+        "amount": 100
+      },
+      {
+        "item": "lead",
+        "amount": 20
+      }      ,
+      {
+        "item": "silicon",
+        "amount": 15
+      }
+    ],
+    "category": "crafting",
+    "research": "silicon-smelter"
+  }

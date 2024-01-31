@@ -1,0 +1,12 @@
+{
+    "name": "Wire",
+    "description": "Used for both basic and complex electronics",
+    "cost": 2.5,
+    "color": "3275a8",
+    "flammability": 0.05,
+    "explosiveness": 0,
+    "charge": 0.1,
+    "research": {
+      "parent": "titanium"
+    }
+}
