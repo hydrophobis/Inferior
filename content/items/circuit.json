@@ -1,0 +1,11 @@
+
+    "name": "Circuit",
+    "description": "Used in basic and inefficient electronics. May explode in fires",
+    "cost": 2.5,
+    "color": "262626",
+    "flammability": 0.4,
+    "explosiveness": 0.2,
+    "research": {
+      "parent": "solder"
+    }
+}
