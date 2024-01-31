@@ -1,7 +1,7 @@
 {
     "name": "PbSn",
     "description": "Soldering ahoy!",
-    "heatCapacity": 20,
+    "heatCapacity": 1,
     "explosiveness": 0,
     "temperature": 0.9,
     "gas": false,
