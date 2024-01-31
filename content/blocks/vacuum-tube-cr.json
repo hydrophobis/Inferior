@@ -1,0 +1,57 @@
+{
+    "type": "GenericCrafter",
+    "name": "Vacuum Chamber",
+    "description": "Creates bulbs to be used in simple elctronics",
+    "outputItem": {"item": "vacuum-tube", "amount": 1},
+    "drawer": {"type": "DrawWeave", "drawers": [ {"type": "DrawWeave", "suffix": "-weave"}, {"type": "DrawDefault"} ] },
+    "health": 340,
+    "itemCapacity": 5,
+    "size": 2,
+    "craftTime": 300,
+    "health": 240,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "updateEffect": "",
+    "consumes": {
+      "power": 1.5,
+      "items": {
+        "items": [
+          {
+            "item": "titanium",
+            "amount": 2
+          },
+          {
+            "item": "metaglass",
+            "amount": 1
+          },
+          {
+            "item": "graphite",
+            "amount": 1
+          }
+        ]
+      }
+    },
+    "requirements": [
+  
+      {
+        "item": "copper",
+        "amount": 100
+      },
+      {
+        "item": "graphite",
+        "amount": 20
+      }      ,
+      {
+        "item": "silicon",
+        "amount": 10
+      },
+      {
+        "item": "titanium",
+        "amount": 5
+      }
+ 
+    ],
+    "category": "crafting",
+    "research": "kiln"
+  }

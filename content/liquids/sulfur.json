@@ -8,5 +8,8 @@
     "color": "5a9443",
     "gasColor": "5a9443",
     "flammability": 0,
-    "coolant": false
+    "coolant": false,
+    "research": {
+      "parent": "plastanium-compressor"
+    }
   }
