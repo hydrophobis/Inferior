@@ -3,7 +3,7 @@
     "name": "Vacuum Chamber",
     "description": "Creates bulbs to be used in simple elctronics",
     "outputItem": {"item": "vacuum-tube", "amount": 1},
-    "drawer": {"type": "DrawWeave", "drawers": [ {"type": "DrawWeave", "suffix": "-weave"}, {"type": "DrawDefault"} ] },
+    "drawer": {"type": "DrawMulti", "drawers": [ {"type": "DrawWeave", "suffix": "-weave"}, {"type": "DrawDefault"} ] },
     "health": 340,
     "itemCapacity": 5,
     "size": 2,
