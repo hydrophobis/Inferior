@@ -6,6 +6,6 @@
     "flammability": 0,
     "explosiveness": 0,
     "research": {
-      "parent": "coal"
+      "parent": "titanium"
     }
 }
