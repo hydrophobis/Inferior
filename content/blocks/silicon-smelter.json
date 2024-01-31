@@ -4,6 +4,7 @@
         "amount": 1
     },
     "outputLiquid": {
-        "liquid": "co2/0.033333"
+        "liquid": "co2",
+        "amount": "0.03333"
     }
 }
