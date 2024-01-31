@@ -12,7 +12,6 @@
     "hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
-    "updateEffect": "",
     "consumes": {
       "power": 1.5,
       "items": {
