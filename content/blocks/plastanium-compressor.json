@@ -1,11 +1,26 @@
 {
-    "outputItems": {
-        "item": ["plastanium", "pure-carbon"],
-        "amount": 1
-
+    "outputItems": [
+        {
+        "item": "plastanium",
+        "amount": "1"
+        }
+        {
+        "item": "pure-carbon",
+        "amount": "1"
+        }
     },
-    "outputLiquid": {
-        "liquid": ["ozone", "hydrogen", "sulfur"],
-        "amount": "0.01666"
-    }
+    "outputLiquids": [
+        {
+        "liquid": "hydrogen",
+        "amount": "0.01667"
+        }
+        {
+        "liquid": "sulfur",
+        "amount": "0.01667"
+        }
+        {
+        "liquid": "ozone",
+        "amount": "0.1667"
+        }
+    ]
 }
