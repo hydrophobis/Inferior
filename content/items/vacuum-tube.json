@@ -1,1 +1,11 @@
-h
+{
+    "name": "Vacuum Tube",
+    "description": "Used in basic and inefficient circuits",
+    "cost": 2.5,
+    "color": "262626",
+    "flammability": 0,
+    "explosiveness": 0,
+    "research": {
+      "parent": "coal"
+    }
+}
