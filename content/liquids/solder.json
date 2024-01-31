@@ -1,0 +1,14 @@
+{
+    "name": "PbSn",
+    "description": "Soldering ahoy!",
+    "heatCapacity": 20,
+    "explosiveness": 0,
+    "temperature": 0.9,
+    "gas": false,
+    "color": "858179",
+    "flammability": 0,
+    "coolant": false,
+    "research": {
+      "parent": "lead"
+    }
+  }

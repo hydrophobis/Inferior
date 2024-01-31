@@ -1,0 +1,59 @@
+{
+    "type": "GenericCrafter",
+    "name": "Precision Engraver",
+    "description": "Creates chips to be used in simple elctronics",
+    "outputItem": {"item": "circuit", "amount": 1},
+    "drawer": {"type": "DrawMulti", "drawers": [ {"type": "DrawWeave", "suffix": "-weave"}, {"type": "DrawDefault"} ] },
+    "health": 340,
+    "itemCapacity": 5,
+    "size": 2,
+    "craftTime": 300,
+    "health": 240,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 1.5,
+      "items": {
+        "items": [
+          {
+            "item": "copper-silicate",
+            "amount": 2
+          },
+          {
+            "item": "resistor",
+            "amount": 1
+          },
+          {
+            "item": "titanium",
+            "amount": 1
+          }
+        ]
+      },
+      "liquid": {
+        "liquid": "solder"
+      }
+    },
+    "requirements": [
+  
+      {
+        "item": "copper-silicate",
+        "amount": 20
+      },
+      {
+        "item": "graphite",
+        "amount": 100
+      }      ,
+      {
+        "item": "silicon",
+        "amount": 75
+      },
+      {
+        "item": "titanium",
+        "amount": 90
+      }
+ 
+    ],
+    "category": "crafting",
+    "research": "kiln"
+  }

@@ -1,0 +1,47 @@
+{
+    "type": "GenericCrafter",
+    "name": "Solder Multi-Machine",
+    "description": "Mines Sn from the ground to use with Pb to make PbSn",
+    "outputLiquid": {"liquid": "solder", "amount": 1},
+    "drawer": {"type": "DrawDefault"},
+    "health": 340,
+    "itemCapacity": 5,
+    "size": 2,
+    "craftTime": 300,
+    "health": 240,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 1.9,
+      "items": {
+        "items": [
+          {
+            "item": "lead",
+            "amount": 1
+          }
+        ]
+      }
+    },
+    "requirements": [
+  
+      {
+        "item": "vacuum-tube",
+        "amount": 10
+      },
+      {
+        "item": "lead",
+        "amount": 30
+      }      ,
+      {
+        "item": "copper-silicate",
+        "amount": 100
+      },
+      {
+        "item": "titanium",
+        "amount": 200
+      }
+ 
+    ],
+    "research": "vacuum-tube-cr"
+  }
