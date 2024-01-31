@@ -1,4 +1,4 @@
-{
+
 outputItems: [
 {
 "item": "surge-alloy",
@@ -8,5 +8,4 @@ outputItems: [
 "item": "copper-silicate",
 "amount": "1"
 }
-],
-}
+]
