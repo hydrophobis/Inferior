@@ -4,7 +4,6 @@
     "description": "Creates chips to be used in simple elctronics",
     "outputItem": {"item": "circuit", "amount": 1},
     "drawer": {"type": "DrawMulti", "drawers": [ {"type": "DrawWeave", "suffix": "-weave"}, {"type": "DrawDefault"} ] },
-    "health": 340,
     "itemCapacity": 5,
     "size": 1,
     "craftTime": 120,
