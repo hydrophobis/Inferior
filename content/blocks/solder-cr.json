@@ -3,7 +3,7 @@
     "name": "Solder Multi-Machine",
     "description": "Mines Sn from the ground to use with Pb to make PbSn",
     "outputLiquid": {"liquid": "solder", "amount": 1},
-    "drawer": {"type": "DrawDefault"},
+    "drawer": {"type": "DrawMulti", "drawers": {"DrawLiquidTile": {"liquid": "solder"}},
     "health": 340,
     "itemCapacity": 5,
     "size": 2,
@@ -45,3 +45,4 @@
     "category": "crafting",
     "research": "vacuum-tube-cr"
   }
+}

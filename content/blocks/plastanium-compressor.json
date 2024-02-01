@@ -8,19 +8,19 @@
     "outputLiquids": [
         {
         "liquid": "hydrogen",
-        "amount": "0.01667"
+        "amount": "0.016666"
         },
         {
         "liquid": "sulfur",
-        "amount": "0.01667"
+        "amount": "0.016666"
         },
         {
         "liquid": "ozone",
-        "amount": "0.01667"
+        "amount": "0.016666"
         },
         {
         "liquid": "liquid-plastanium",
-        "amount": 0.01667
+        "amount": 0.016666
         }
     ]
 }
