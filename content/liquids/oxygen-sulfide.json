@@ -13,8 +13,5 @@
       "parent": "sulfur"
     },
     "capPuddles": false,
-    "effect": {
-        "effect": "melting"
-
-    }
-  }
+    "effect": "melting"
+}
