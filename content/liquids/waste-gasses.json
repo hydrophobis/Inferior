@@ -1,0 +1,15 @@
+{
+    "name": "Waste Gasses",
+    "description": "Gasses that have been purified from a machine. Not very useful.",
+    "heatCapacity": 0,
+    "explosiveness": 0.1,
+    "temperature": 0.4,
+    "gas": true,
+    "color": "636141",
+    "gasColor": "636141",
+    "flammability": 0.2,
+    "coolant": true,
+    "research": {
+      "parent": "graphite"
+    }
+  }

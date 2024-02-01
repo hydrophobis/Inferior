@@ -1,0 +1,16 @@
+{
+    "name": "H2O Gas",
+    "description": "H2O heated past boiling point",
+    "heatCapacity": 0,
+    "explosiveness": 0,
+    "temperature": 0.85,
+    "boilPoint": 0.3,
+    "gas": true,
+    "color": "9fb3b2",
+    "gasColor": "9fb3b2",
+    "flammability": 0,
+    "coolant": false,
+    "research": {
+      "parent": "water"
+    }
+  }

@@ -1,0 +1,48 @@
+{
+    "type": "GenericCrafter",
+    "name": "Alloy Entropizer",
+    "description": "Cools down molten Cu2Pb4Ti2Si2",
+    "outputItem": {"item": "surge-alloy", "amount": 1},
+    "drawer": {"type": "DrawDefault"},
+    "itemCapacity": 10,
+    "size": 3,
+    "craftTime": 120,
+    "health": 450,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 3,
+      "liquids": [
+        {
+            "liquid": "melted-surge",
+            "amount": 0.16666
+        }
+      ]
+    },
+    "requirements": [
+  
+      {
+        "item": "copper",
+        "amount": 300
+      },
+      {
+        "item": "titanium",
+        "amount": 150
+      }      ,
+      {
+        "item": "plastanium",
+        "amount": 75
+      },
+      {
+        "item": "silicon",
+        "amount": 60
+      },
+      {
+        "item": "graphite",
+        "amount": 50
+      }
+    ],
+    "category": "crafting",
+    "research": "plastanium-compressor"
+  }

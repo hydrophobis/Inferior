@@ -1,0 +1,15 @@
+{
+    "name": "Melted Cu2Pb4Ti2Si2",
+    "description": "Heated to oblivion",
+    "heatCapacity": 0,
+    "explosiveness": 0,
+    "temperature": 1.5,
+    "gas": false,
+    "color": "5a9443",
+    "flammability": 0,
+    "charge": 0.4,
+    "coolant": false,
+    "research": {
+      "parent": "thorium"
+    }
+  }
