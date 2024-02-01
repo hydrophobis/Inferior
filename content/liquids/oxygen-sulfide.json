@@ -14,5 +14,5 @@
     },
     "capPuddles": false,
     "effect": "melting",
-    "boilPoint": 0.5
+    "boilPoint": 0.2
 }
