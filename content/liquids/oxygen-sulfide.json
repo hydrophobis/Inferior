@@ -4,7 +4,7 @@
     "heatCapacity": 0,
     "explosiveness": 2,
     "temperature": 0.5,
-    "gas": true,
+    "gas": false,
     "color": "9C658B",
     "gasColor": "9C658B",
     "flammability": 3,
