@@ -1,0 +1,50 @@
+{
+    "ammoTypes": {
+    "ozone": {
+      "type": "LiquidBulletType",
+      "bullets": 5,
+      "liquid": "ozone",
+      "damage": 0.2,
+      "knockback": 2.5,
+      "speed": 10,
+      "puddleSize": 1,
+      "lifetime": 100,
+      "drag": 0.05,
+      "orbSize": 3,
+      "shootCone": 5
+      },
+    "sulfur": {
+      "type": "LiquidBulletType",
+      "bullets": 2,
+      "liquid": "sulfur",
+      "damage": 7,
+      "speed": 7,
+      "puddleSize": 0,
+      "lifetime": 150,
+      "drag": 0.03,
+      "orbSize": 2,
+      "shootCone": 2
+    },
+    "water": {
+        "type": "LiquidBulletType",
+        "damage": 0.2,
+        "knockback": 0.7,
+        "drag": 0.01
+    },
+    "cryofluid": {
+        "type": "LiquidBulletType",
+        "damage": 0.2,
+        "drag": 0.01
+    },
+    "oil": {
+        "type": "LiquidBulletType",
+        "damage": 0.2,
+        "drag": 0.01
+    },
+    "slag": {
+        "type": "LiquidBulletType",
+        "drag": 0.01,
+        "damage": 4.75
+    }
+    }
+  }
