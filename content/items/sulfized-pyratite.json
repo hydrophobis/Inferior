@@ -4,7 +4,7 @@
     "cost": 2.5,
     "color": "ffaa5f",
     "flammability": 3,
-    "explosiveness": 2,
+    "explosiveness": 3.5,
     "research": {
       "parent": "pyratite"
     }
