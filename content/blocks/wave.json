@@ -1,0 +1,16 @@
+{
+    "ammoTypes": {
+    "ozone": {
+      "type": "LiquidBulletType",
+      "liquid": "ozone",
+      "damage": 0,
+      "knockback": 2,
+      "speed": 14,
+      "puddleSize": 0,
+      "lifetime": 50,
+      "drag": 0.07,
+      "orbSize": 5,
+      "shootCone": 5
+      }
+    }
+  }
