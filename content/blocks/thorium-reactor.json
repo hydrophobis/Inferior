@@ -4,5 +4,12 @@
             "liquid": "water",
             "amount": 0.4
         }
+    ],
+
+    "outputItems": [
+        {
+            "item": "lead",
+            "amount": 1
+        }
     ]
 }
