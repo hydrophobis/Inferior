@@ -1,0 +1,14 @@
+{
+    "name": "Liquid TiHSC2",
+    "description": "Heated to oblivion",
+    "heatCapacity": 0,
+    "explosiveness": 0.8,
+    "temperature": 0.5,
+    "gas": false,
+    "color": "cbd97f",
+    "flammability": 0.2,
+    "coolant": false,
+    "research": {
+      "parent": "titanium"
+    }
+  }

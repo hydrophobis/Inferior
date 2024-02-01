@@ -1,10 +1,6 @@
 {
     "outputItems": [
         {
-        "item": "plastanium",
-        "amount": "1"
-        },
-        {
         "item": "pure-carbon",
         "amount": "1"
         }
@@ -20,7 +16,11 @@
         },
         {
         "liquid": "ozone",
-        "amount": "0.1667"
+        "amount": "0.01667"
+        },
+        {
+        "liquid": "liquid-plastanium",
+        "amount": 0.01667
         }
     ]
 }

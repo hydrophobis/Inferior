@@ -1,0 +1,51 @@
+{
+    "type": "GenericCrafter",
+    "name": "TiHSC2 Solidifier",
+    "description": "Solidifies TiHSC2 liquid into its solid counterpart",
+    "outputItem": {"item": "circuit", "amount": 1},
+    "drawer": {"type": "DrawDefault"},
+    "itemCapacity": 5,
+    "size": 1,
+    "craftTime": 120,
+    "health": 240,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "updateEffect": "sparkExplosion",
+    "consumes": {
+      "power": 1.5,
+      "liquid": {
+        "liquid": "liquid-plastanium"
+      }
+    },
+    "requirements": [
+  
+      {
+        "item": "copper",
+        "amount": 250
+      },
+      {
+        "item": "thorium",
+        "amount": 100
+      }      ,
+      {
+        "item": "silicon",
+        "amount": 75
+      },
+      {
+        "item": "titanium",
+        "amount": 90
+      },
+      {
+        "item": "wire",
+        "amount": 15
+      },
+      {
+        "item": "vacuum-tube",
+        "amount": 10
+      }
+ 
+    ],
+    "category": "crafting",
+    "research": "plastanium-compressor"
+  }
