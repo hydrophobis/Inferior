@@ -11,5 +11,6 @@
     "coolant": false,
     "research": {
       "parent": "silicon"
-    }
+    },
+    "capPuddles": false
   }
