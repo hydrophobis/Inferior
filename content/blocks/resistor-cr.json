@@ -9,7 +9,7 @@
     "size": 2,
     "craftTime": 300,
     "hasPower": true,
-    "hasLiquids": true,
+    "hasLiquids": false,
     "hasItems": true,
     "consumes": {
       "power": 0.7,
