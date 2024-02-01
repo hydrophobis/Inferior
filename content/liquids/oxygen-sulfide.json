@@ -13,6 +13,5 @@
       "parent": "sulfur"
     },
     "capPuddles": false,
-    "effect": "melting",
-    "boilPoint": 0.2
+    "effect": "melting"
 }
