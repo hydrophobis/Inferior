@@ -3,6 +3,10 @@
         {
             "liquid": "steam",
             "amount": 0.1
+        },
+        {
+            "liquid": "waste-gasses",
+            "amount": 0.01666666
         }
     ]
 }

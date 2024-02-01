@@ -2,7 +2,7 @@
     "outputLiquids": [
         {
             "liquid": "cryofluid",
-            "amount": 0.13333
+            "amount": 0.133333334
         }
     ]
 }
