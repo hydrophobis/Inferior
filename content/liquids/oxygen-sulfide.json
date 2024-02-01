@@ -14,8 +14,7 @@
     },
     "capPuddles": false,
     "effect": {
-        "effect": "melting",
-        "effect": "burning",
-        "effect": "blasted"
+        "effect": "melting"
+
     }
   }
