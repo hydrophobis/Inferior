@@ -6,7 +6,6 @@
     "flammability": 0,
     "explosiveness": 0,
     "research": {
-        "parent": "surge-alloy",
-        "objectives": ["surge-alloy"]
+        "parent": "surge-alloy"
     }
 }
