@@ -1,0 +1,11 @@
+{
+    "name": "Pb2CSiO2 + S",
+    "description": "Hot sulfur gas!",
+    "cost": 2.5,
+    "color": "ffaa5f",
+    "flammability": 3,
+    "explosiveness": 2,
+    "research": {
+      "parent": "pyratite"
+    }
+}
