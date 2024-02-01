@@ -13,6 +13,15 @@
       "orbSize": 3,
       "shootCone": 5
       },
+      "oxygen-sulfide": {
+        "type": "LiquidBulletType",
+        "bullets": 4,
+        "liquid": "oxygen-sulfide",
+        "damage": 0.2,
+        "boilTime": 100,
+        "drag": 0.01,
+        "shootCone": 3
+      },
     "sulfur": {
       "type": "LiquidBulletType",
       "bullets": 2,

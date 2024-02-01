@@ -1,0 +1,21 @@
+{
+    "name": "OS",
+    "description": "Oxygen and Sulfur",
+    "heatCapacity": 0,
+    "explosiveness": 2,
+    "temperature": 0.5,
+    "gas": true,
+    "color": "9C658B",
+    "gasColor": "9C658B",
+    "flammability": 3,
+    "coolant": false,
+    "research": {
+      "parent": "sulfur"
+    },
+    "capPuddles": false,
+    "effect": {
+        "effect": "melting",
+        "effect": "burning",
+        "effect": "blasted"
+    }
+  }
