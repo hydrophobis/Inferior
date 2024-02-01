@@ -2,7 +2,7 @@
     "localizedName": "CuSi",
     "description": "Copper and Silicon Bonded. Byproduct of alloy production",
     "cost": 2.5,
-    "color": "3A4466FF",
+    "color": "3A4466",
     "flammability": 0,
     "explosiveness": 0,
     "research": {
