@@ -1,0 +1,59 @@
+{
+    "type": [
+        {
+            "type": "NuclearReactor"
+        },
+        {
+            "type": "GenericCrafter"
+        }
+    ],
+
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "": ""
+            }
+        ]
+    },
+    
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 300
+        },
+        {
+            "item": "silicon",
+            "amount": 200
+        },
+        {
+            "item": "graphite",
+            "amount": 150
+        },
+        {
+            "item": "thorium",
+            "amount": 150
+        },
+        {
+            "item": "metaglass",
+            "amount": 50
+        }
+    ],
+
+    "outputItems": [
+        {
+            "item": "lead",
+            "amount": 1
+        }
+    ],
+
+    "consumeLiquid": {"liquid": "cryofluid"},
+    "ambientSound": "hum",
+    "ambientSoundVolume": 0.27,
+    "size": 3,
+    "health": 700,
+    "itemDuration": 360,
+    "powerProduction": 15,
+    "heating": 0.02,
+    "name": "Thorium Reactor"
+}
