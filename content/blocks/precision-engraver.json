@@ -31,7 +31,8 @@
         ]
       },
       "liquid": {
-        "liquid": "solder"
+        "liquid": "solder",
+        "amount": 0.033334
       }
     },
     "requirements": [

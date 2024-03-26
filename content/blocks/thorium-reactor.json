@@ -1,16 +1,4 @@
 {
-    "outputLiquids": [
-        {
-            "liquid": "water",
-            "amount": 0.4
-        }
-    ],
-
-    "outputItems": [
-        {
-            "item": "lead",
-            "amount": 1
-        }
-    ],
-    "hidden": true
+    "hidden": true,
+    "category": null
 }
