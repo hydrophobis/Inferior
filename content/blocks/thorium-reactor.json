@@ -12,7 +12,7 @@
             "liquid": [
                 {
                     "liquid": "cryofluid",
-                    "amount": 0.02
+                    "amount": 0.04
                 }
             ]
         }
