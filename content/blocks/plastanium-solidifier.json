@@ -15,7 +15,8 @@
     "consumes": {
       "power": 1.5,
       "liquid": {
-        "liquid": "liquid-plastanium"
+        "liquid": "liquid-plastanium",
+        "amount": "0.05"
       }
     },
     "requirements": [
