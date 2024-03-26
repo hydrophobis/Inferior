@@ -1,3 +1,4 @@
 {
-    "canOverdrive": true
+    "canOverdrive": true,
+    "name": "test"
 }
