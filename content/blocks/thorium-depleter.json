@@ -1,0 +1,46 @@
+{
+    "name": "Thorium Depleter",
+    "type": "GenericCrafter",
+    "requirements": [
+        {
+            "item": "lead",
+            "amount": 300
+        },
+        {
+            "item": "resistor",
+            "amount": 200
+        },
+        {
+            "item": "wire",
+            "amount": 150
+        },
+        {
+            "item": "circuit",
+            "amount": 150
+        },
+        {
+            "item": "copper-silicate",
+            "amount": 100
+        }
+        
+    ],
+    "category": "production",
+    "ambientSounds": "hum",
+    "ambientSoundVolume": 0.24,
+    "size": 3,
+    "health": 700,
+    "outputItems": [
+        {
+            "item": "depleted-thorium",
+            "amount": 1
+        }
+    ],
+    "outputLiquids": [
+        {
+            "liquid": "water",
+            "amount": 0.01666667
+        }
+    ],
+    "consumeItem": {"item": "thorium", "amount": 1},
+    "consumeLiquids": {"liquid": "thorium", "amount": 0.01666667}
+}

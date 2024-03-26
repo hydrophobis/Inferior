@@ -1,4 +1,6 @@
 {
-    "hidden": true,
-    "category": null
+    "consumeItem": {
+        "item": "depleted-thorium",
+        "amount": 1
+    }
 }
