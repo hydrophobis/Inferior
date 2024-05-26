@@ -1,8 +1,10 @@
 {
-    "outputItems": [
-        {
-            "item": "lead",
+    "consumes": {
+        "items": [
+            "item": "depleted-thorium",
             "amount": 1
-        }
-    ]
+        ]
+    },
+    "itemDuration": 840,
+    "powerProduction": 3
 }
