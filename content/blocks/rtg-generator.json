@@ -5,7 +5,10 @@
             "item": "depleted-thorium",
             "amount": 1
             }
-        ]
+        ],
+        "itemRadioactive": {
+            "minRadioactivity": 1000000
+        }
     },
     "itemDuration": 840,
     "powerProduction": 3
