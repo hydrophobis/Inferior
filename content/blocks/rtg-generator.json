@@ -7,7 +7,7 @@
             }
         ],
         "itemRadioactive": {
-            "minRadioactivity": 1000000
+            "minCharge": 1000000
         }
     },
     "itemDuration": 840,
