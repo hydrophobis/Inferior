@@ -6,14 +6,12 @@
                 "amount": 1
             }
         ],
-        "liquids": {
-            "liquid": [
-                {
-                    "liquid": "cryofluid",
-                    "amount": 0.04
-                }
-            ]
-        }
+        "liquids": [
+            {
+            "liquid": "cryofluid",
+            "amount": 0.04
+            }
+        ]
     },
     "powerProduction": 20
 }
