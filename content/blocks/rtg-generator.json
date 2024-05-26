@@ -1,8 +1,10 @@
 {
     "consumes": {
         "items": [
+            {
             "item": "depleted-thorium",
             "amount": 1
+            }
         ]
     },
     "itemDuration": 840,
