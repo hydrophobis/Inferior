@@ -7,7 +7,7 @@
     "health": 130,
     "itemCapacity": 5,
     "size": 2,
-    "craftTime": 300,
+    "craftTime": 30,
     "hasPower": true,
     "hasLiquids": false,
     "hasItems": true,
@@ -30,9 +30,13 @@
       {
         "item": "copper",
         "amount": 70
-      }      ,
+      },
       {
-        "item": "copper-silicate",
+        "item": "graphite",
+        "amount": 45
+      },
+      {
+        "item": "titanium",
         "amount": 30
       },
       {

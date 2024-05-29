@@ -2,7 +2,7 @@
     "consume": [
         {
           "type": "item",
-          "item": "thorium"
+          "item": "depleted-thorium"
         },
         {
           "type": "liquid",
@@ -10,5 +10,6 @@
           "amount": 0.2
         }
       ],
-    "powerProduction": 12
+    "powerProduction": 12,
+    "itemDuration": 300
 }

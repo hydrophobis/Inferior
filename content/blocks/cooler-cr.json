@@ -1,0 +1,58 @@
+{
+    "type": "GenericCrafter",
+    "name": "Cooler Assembler",
+    "description": "Assembles components into coolers",
+    "outputItem": {"item": "cooler", "amount": 1},
+    "drawer": {"type": "DrawDefault"},
+    "health": 350,
+    "itemCapacity": 10,
+    "size": 2,
+    "craftTime": 30,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "consumes": {
+      "power": 2,
+      "items": {
+        "items": [
+          {
+            "item": "titanium",
+            "amount": 3
+          },
+          {
+            "item": "circuit",
+            "amount": 3
+          },
+          {
+            "item": "metaglass",
+            "amount": 2
+          },
+          {
+            "item": "wire",
+            "amount":  2
+          }
+        ]
+      }
+    },
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 70
+      },
+      {
+        "item": "graphite",
+        "amount": 45
+      },
+      {
+        "item": "titanium",
+        "amount": 30
+      },
+      {
+        "item": "silicon",
+        "amount": 15
+      }
+ 
+    ],
+    "category": "crafting",
+    "research": "circuit-cr"
+  }

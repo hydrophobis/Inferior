@@ -1,0 +1,12 @@
+{
+"requirements": [
+    { "item": "copper", "amount": 1200 },
+    { "item": "lead", "amount": 350 },
+    { "item": "graphite", "amount": 300 },
+    { "item": "surge-alloy", "amount": 325 },
+    { "item": "silicon", "amount": 325 },
+    { "item": "circuit", "amount": 125 },
+    { "item": "resistor", "amount": 400 },
+    { "item": "cooler", "amount": 10 }
+  ]
+}

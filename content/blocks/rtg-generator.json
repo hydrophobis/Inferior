@@ -1,16 +1,15 @@
 {
-    "consumes": {
-        "items": [
-            {
-            "item": "depleted-thorium",
-            "amount": 1
-            }
-        ],
-        "itemRadioactive": {
-            "minCharge": 1000000,
-            "minFlammability": 1000000
+    "consume": [
+        {
+          "type": "item",
+          "item": "depleted-thorium"
+        },
+        {
+          "type": "liquid",
+          "liquid": "cryofluid",
+          "amount": 0.2
         }
-    },
-    "itemDuration": 840,
+    ],
+    "itemDuration": 800,
     "powerProduction": 3
 }

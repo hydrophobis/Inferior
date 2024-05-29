@@ -41,6 +41,14 @@
       {
         "item": "graphite",
         "amount": 50
+      },
+      {
+        "item": "wire",
+        "amount": 50
+      },
+      {
+        "item": "plastanium",
+        "amount": 30
       }
     ],
     "category": "crafting",
