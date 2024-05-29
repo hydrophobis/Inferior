@@ -1,0 +1,17 @@
+{
+    "consumes": {
+        "power": 3,
+        "liquids": [
+            {
+                "liquid": "water",
+                "amount": 0.23333333333
+            }
+        ],
+        "items": [
+            {
+                "item": "sand",
+                "amount": 1
+            }
+        ]
+    }
+}
