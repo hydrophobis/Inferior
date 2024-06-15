@@ -1,5 +1,5 @@
 {
-    "consume": [
+    "consumes": [
         {
           "type": "item",
           "item": "depleted-thorium"
