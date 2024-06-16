@@ -11,5 +11,15 @@
         "liquid": "melted-surge",
         "amount": "0.0166667"
         }
-    ]
+    ],
+    
+    "requirements": {
+        {
+            "item": "lead",
+            "amount": 80
+        },
+        {
+            "item": "thorium",
+            "amount": 70
+    }
 }
