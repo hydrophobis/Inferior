@@ -1,9 +1,11 @@
 {
     "consumes": [
         "items": [
+        "items": {
         {
           "item": "depleted-thorium",
           "amount": 1        
+        }
         }
         ],
         "liquids": [
