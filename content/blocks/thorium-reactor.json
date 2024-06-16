@@ -1,20 +1,10 @@
 {
-    "consumes": {
-        "items": {
-        "items": [
+    "consumeItem": {
         {
-          "item": "depleted-thorium",
-          "amount": 1        
+            "item": "depleted-thorium",
+            "amount": 1,
         }
-        ]
-        },
-        "liquids": [
-        {
-          "liquid": "cryofluid",
-          "amount": 0.1
-        }
-        ]
-      },
+    },
     "powerProduction": 12,
     "itemDuration": 300
 }
