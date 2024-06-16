@@ -2,7 +2,7 @@
     "type": "GenericCrafter",
     "name": "Precision Engraver",
     "description": "Creates chips to be used in simple elctronics",
-    "outputItem": {"item": "circuit", "amount": 1},
+    "outputItem": {"item": "wafer", "amount": 1},
     "drawer": {"type": "DrawDefault"},
     "itemCapacity": 5,
     "size": 2,
@@ -17,17 +17,9 @@
       "items": {
         "items": [
           {
-            "item": "copper-silicate",
+            "item": "silicon",
             "amount": 2
-          },
-          {
-            "item": "resistor",
-            "amount": 5
-          },
-          {
-            "item": "wire",
-            "amount": 3
-          }
+            }
         ]
       },
       "liquid": {
@@ -38,7 +30,7 @@
     "requirements": [
   
       {
-        "item": "copper-silicate",
+        "item": "copper",
         "amount": 20
       },
       {
@@ -56,6 +48,10 @@
       {
         "item": "vacuum-tube",
         "amount": 15
+      },
+      {
+        "item": "metaglass",
+        "amount": 2
       }
  
     ],
