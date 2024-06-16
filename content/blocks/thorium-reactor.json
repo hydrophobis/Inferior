@@ -1,5 +1,5 @@
 {
-    "consumes": [
+    "consumes": {
         "items": {
         "items": [
         {
@@ -14,7 +14,7 @@
           "amount": 0.2
         }
         ]
-      ],
+      },
     "powerProduction": 12,
     "itemDuration": 300
 }
