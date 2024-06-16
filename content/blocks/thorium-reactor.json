@@ -1,10 +1,5 @@
 {
-    "consumeItem": {
-        {
-            "item": "depleted-thorium",
-            "amount": 1,
-        }
-    },
+    "consumeItem": "copper",
     "powerProduction": 12,
     "itemDuration": 300
 }
