@@ -2,13 +2,12 @@
     "consumes": [
         "items": [
         {
-          "type": "item",
-          "item": "depleted-thorium"
+          "item": "depleted-thorium",
+          "amount": 1        
         }
         ],
         "liquids": [
         {
-          "type": "liquid",
           "liquid": "cryofluid",
           "amount": 0.2
         }
