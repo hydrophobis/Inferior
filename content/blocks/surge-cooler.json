@@ -47,9 +47,14 @@
         "amount": 50
       },
       {
-        "item": "plastanium",
-        "amount": 30
+        "item": "circuit",
+        "amount": 5
+      },
+      {
+        "item": "cooler",
+        "amount": 4
       }
+    
     ],
     "category": "crafting",
     "research": "plastanium-compressor"
