@@ -42,8 +42,12 @@
         "amount": 15
       },
       {
-        "item": "vacuum-tube",
-        "amount": 10
+        "item": "circuit",
+        "amount": 3
+      },
+      {
+        "item": "cooler",
+        "amount": 2
       }
  
     ],
