@@ -21,6 +21,18 @@
         {
             "item": "thorium",
             "amount": 70
+        },
+        {
+            "item": "silicon",
+            "amount": 80
+        },
+        {
+            "item": "circuit",
+            "amount": 10
+        },
+        {
+            "item": "wire",
+            "amount": 35
         }
     ]
 }
