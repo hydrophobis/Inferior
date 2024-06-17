@@ -50,8 +50,15 @@
       {
         "item": "silicon",
         "amount": 15
+      },
+      {
+        "item": "circuit",
+        "amount": 3
+      },
+      {
+        "item": "wire",
+        "amount": 6
       }
- 
     ],
     "category": "crafting",
     "research": "circuit-cr"
