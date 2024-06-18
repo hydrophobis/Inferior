@@ -1,0 +1,77 @@
+{
+    "type": "GenericCrafter",
+    "name": "Quantum Circuit Reassembler",
+    "description": "Assembles components into quantum circuits",
+    "outputItem": {"item": "circuit-phase", "amount": 1},
+    "drawer": {"type": "DrawDefault"},
+    "health": 700,
+    "itemCapacity": 25,
+    "size": 2,
+    "craftTime": 150,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 2,
+      "items": {
+        "items": [
+          {
+            "item": "phase-fabric",
+            "amount": 4
+          },
+          {
+            "item": "resistor",
+            "amount": 25
+          },
+          {
+            "item": "circuit-surge",
+            "amount": 3
+          },
+          {
+            "item": "wafer",
+            "amount":  4
+          }
+        ]
+      },
+      "liquids": {
+        "liquids": [
+            {
+                "liquid": "solder",
+                "amount": 0.03
+            }
+        ]
+      }
+    },
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 500
+      },
+      {
+        "item": "lead",
+        "amount": 300
+      },
+      {
+        "item": "titanium",
+        "amount": 200
+      },
+      {
+        "item": "plastanium",
+        "amount": 50
+      },
+      {
+        "item": "resistor",
+        "amount": 25
+      },
+      {
+        "item": "circuit-surge",
+        "amount": 20
+      },
+      {
+        "item": "wire",
+        "amount": 60
+      }
+    ],
+    "category": "crafting",
+    "research": "circuit-plast-as"
+  }
