@@ -1,0 +1,28 @@
+{
+    "requirements": [
+        {
+            "item": "metaglass",
+            "amount": 80
+        },
+        {
+            "item": "titanium",
+            "amount": 120
+        },
+        {
+            "item": "silicon",
+            "amount": 60
+        },
+        {
+            "item": "plastanium",
+            "amount": 35
+        },
+        {
+            "item": "circuit-lead",
+            "amount": 3
+        },
+        {
+            "item": "cooler",
+            "amount": 1
+        }
+    ]
+}

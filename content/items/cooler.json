@@ -6,6 +6,8 @@
     "flammability": -0.4,
     "explosiveness": 0,
     "charge": 0.07,
+    "frames": 2,
+    "transitionFrames": 1,
     "research": {
       "parent": "titanium"
     }
