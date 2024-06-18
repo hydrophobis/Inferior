@@ -43,17 +43,29 @@
         }
       ]
     },
-    "requirements": {
-      "category": "crafting",
-      "items": {
-        "copper": 200,
-        "plastanium": 150,
-        "titanium": 50,
-        "circuit-phase": 2,
-        "circuit-surge": 1,
-        "circuit-plast": 1
-      },
-      "research": "circuit-phase-as"
-    }
+    "requirements": [
+        {
+          "item": "copper",
+          "amount": 200
+        },
+        {
+          "item": "resistor",
+          "amount": 15
+        },
+        {
+          "item": "vacuum-tube",
+          "amount": 15
+        },
+        {
+          "item": "silicon",
+          "amount": 15
+        },
+        {
+          "item": "wire",
+          "amount": 6
+        }
+      ],
+    "research": "circuit-phase-as",
+    "category": "crafting"
   }
   
