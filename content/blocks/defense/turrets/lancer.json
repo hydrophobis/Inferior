@@ -1,6 +1,6 @@
 {
   "name": "Lancer",
-  "type": "PowerTurret",
+
   "requirements": [
     {
       "item": "copper",

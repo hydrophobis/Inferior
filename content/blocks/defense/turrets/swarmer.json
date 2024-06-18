@@ -1,6 +1,5 @@
 {
     "name": "Swarmer",
-    "type": "ItemTurret",
 "requirements": [
   {
     "item": "graphite",

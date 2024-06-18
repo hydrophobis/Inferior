@@ -1,6 +1,6 @@
 {
   "name": "Salvo",
-  "type": "ItemTurret",
+
   "requirements": [
     {
       "item": "copper",

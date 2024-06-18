@@ -1,6 +1,5 @@
 {
     "name": "Tsunami",
-    "type": "LiquidTurret",
 "requirements": [
   {
     "item": "metaglass",

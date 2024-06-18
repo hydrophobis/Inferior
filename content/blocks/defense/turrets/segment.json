@@ -1,6 +1,5 @@
 {
   "name": "Segment",
-  "type": "PointDefenseTurret",
   "requirements": [
     {
       "item": "silicon",

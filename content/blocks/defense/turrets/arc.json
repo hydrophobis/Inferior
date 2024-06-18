@@ -1,6 +1,6 @@
 {
   "name": "Arc",
-  "type": "PowerTurret",
+
   "localizedName": "Arc",
   "description": "A lightning-based turret.",
   "size": 1,

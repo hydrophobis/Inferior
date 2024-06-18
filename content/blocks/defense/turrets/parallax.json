@@ -1,6 +1,6 @@
 {
   "name": "Parallax",
-  "type": "TractorBeamTurret",
+
   "requirements": [
     {
       "item": "silicon",

@@ -1,6 +1,6 @@
 {
   "name": "Fuse",
-  "type": "ItemTurret",
+
   "localizedName": "Fuse",
   "description": "A powerful shrapnel-based turret.",
   "size": 3,

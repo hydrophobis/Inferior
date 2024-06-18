@@ -1,6 +1,6 @@
 {
   "name": "Cyclone",
-  "type": "ItemTurret",
+
   "localizedName": "Cyclone",
   "description": "A high-rate-of-fire turret with flak ammunition.",
   "size": 3,

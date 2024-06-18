@@ -1,6 +1,5 @@
 {
     "name": "Wave",
-    "type": "LiquidTurret",
 "requirements": [
   {
     "item": "metaglass",
