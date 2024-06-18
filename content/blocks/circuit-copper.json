@@ -49,7 +49,7 @@
       },
       {
         "item": "resistor",
-        "amount": 45
+        "amount": 15
       },
       {
         "item": "vacuum-tube",
@@ -58,10 +58,6 @@
       {
         "item": "silicon",
         "amount": 15
-      },
-      {
-        "item": "circuit",
-        "amount": 3
       },
       {
         "item": "wire",
