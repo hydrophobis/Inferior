@@ -1,0 +1,12 @@
+{
+    "name": "Surge Circuit",
+    "description": "Used in complex electronics. Extremely dangerous when burned",
+    "cost": 2.5,
+    "color": "f3e979",
+    "flammability": 0.1,
+    "explosiveness": 0.5,
+    "charge": 0.9,
+    "research": {
+      "parent": "circuit-plast"
+    }
+}

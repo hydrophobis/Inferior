@@ -2,7 +2,7 @@
     "type": "GenericCrafter",
     "name": "Resistor Shaping Machine",
     "description": "Shapes various materials into resistors",
-    "outputItem": {"item": "resistor", "amount": 1},
+    "outputItem": {"item": "resistor", "amount": 2},
     "drawer": {"type": "DrawDefault"},
     "health": 130,
     "itemCapacity": 5,
@@ -16,7 +16,11 @@
       "items": {
         "items": [
           {
-            "item": "titanium",
+            "item": "lead",
+            "amount": 1
+          },
+          {
+            "item": "copper",
             "amount": 1
           },
           {

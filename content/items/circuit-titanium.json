@@ -1,0 +1,12 @@
+{
+    "name": "Titan Circuit",
+    "description": "Used in electronics. Much safer in fires",
+    "cost": 2.5,
+    "color": "8da1e3",
+    "flammability": 0.1,
+    "explosiveness": 0.1,
+    "charge": 0.4,
+    "research": {
+      "parent": "circuit-lead"
+    }
+}

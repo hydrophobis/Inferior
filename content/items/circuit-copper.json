@@ -1,10 +1,11 @@
 {
-    "name": "Circuit",
+    "name": "Copper Circuit",
     "description": "Used in basic and inefficient electronics. May explode in fires",
     "cost": 2.5,
-    "color": "262626",
+    "color": "d99d73",
     "flammability": 0.4,
     "explosiveness": 0.2,
+    "charge": 0.1,
     "research": {
       "parent": "solder"
     }

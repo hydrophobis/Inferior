@@ -1,0 +1,12 @@
+{
+    "name": "Plastanium Circuit",
+    "description": "Used in electronics. Dangerous when burned",
+    "cost": 2.5,
+    "color": "cbd97f",
+    "flammability": 0.6,
+    "explosiveness": 0.0,
+    "charge": 0.6,
+    "research": {
+      "parent": "circuit-titanium"
+    }
+}

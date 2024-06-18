@@ -1,0 +1,13 @@
+{
+    "name": "Quantam Circuit",
+    "description": "Used in extremely complex electronics. Dangerous when burned",
+    "cost": 2.5,
+    "color": "f4ba6e",
+    "flammability": 0.5,
+    "explosiveness": 0.7,
+    "charge": 1.2,
+    "radioactivity": 0.3,
+    "research": {
+      "parent": "circuit-surge"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Lead Circuit",
+    "description": "Used in inefficient electronics. Explosive in fires",
+    "cost": 2.5,
+    "color": "8c7fa9",
+    "flammability": 0.2,
+    "explosiveness": 0.4,
+    "charge": 0.2,
+    "research": {
+      "parent": "circuit-copper"
+    }
+}
