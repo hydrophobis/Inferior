@@ -1,5 +1,4 @@
 {
-  "name": "Segment",
   "requirements": [
     {
       "item": "silicon",
@@ -25,14 +24,5 @@
       "item": "circuit-titanium",
       "amount": 3
     }
-  ],
-  "scaledHealth": 250,
-  "range": 180,
-  "hasPower": true,
-  "consumePower": 8,
-  "size": 2,
-  "shootLength": 5,
-  "bulletDamage": 30,
-  "reload": 8,
-  "envEnabled": "Env.space"
+  ]
 }
