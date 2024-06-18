@@ -7,7 +7,7 @@
     "explosiveness": 0,
     "charge": 0.07,
     "frames": 2,
-    "transitionFrames": 0,
+    "transitionFrames": 2,
     "research": {
       "parent": "titanium"
     }
