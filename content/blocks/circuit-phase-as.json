@@ -73,5 +73,6 @@
       }
     ],
     "category": "crafting",
-    "research": "circuit-plast-as"
+    "research": "circuit-plast-as",
+    "researchCostMultiplier": 0.5
   }

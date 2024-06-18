@@ -66,6 +66,7 @@
         }
       ],
     "research": "circuit-phase-as",
-    "category": "crafting"
+    "category": "crafting",
+    "researchCostMultiplier": 0.25
   }
   

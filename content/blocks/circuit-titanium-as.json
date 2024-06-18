@@ -69,5 +69,6 @@
       }
     ],
     "category": "crafting",
-    "research": "circuit-lead-as"
+    "research": "circuit-lead-as",
+    "researchCostMultiplier": 0.25
   }

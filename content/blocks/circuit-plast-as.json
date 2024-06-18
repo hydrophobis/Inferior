@@ -69,5 +69,6 @@
       }
     ],
     "category": "crafting",
-    "research": "circuit-titanium-as"
+    "research": "circuit-titanium-as",
+    "researchCostMultiplier": 0.25
   }
