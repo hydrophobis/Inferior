@@ -2,7 +2,7 @@
     "type": "GenericCrafter",
     "name": "Copper Circuit Assembler",
     "description": "Assembles components into copper circuits",
-    "outputItem": {"item": "circuit", "amount": 1},
+    "outputItem": {"item": "circuit-copper", "amount": 1},
     "drawer": {"type": "DrawDefault"},
     "health": 600,
     "itemCapacity": 10,
