@@ -1,78 +1,62 @@
 {
-    "ammoTypes": {
-    "ozone": {
-      "type": "LiquidBulletType",
-      "bullets": 5,
-      "liquid": "ozone",
-      "damage": 0,
-      "knockback": 2,
-      "speed": 10,
-      "puddleSize": 1,
-      "lifetime": 100,
-      "drag": 0.07,
-      "orbSize": 3,
-      "shootCone": 5
-      },
-    "oxygen-sulfide": {
-      "type": "LiquidBulletType",
-      "bullets": 3,
-      "liquid": "oxygen-sulfide",
-      "damage": 0,
-      "boilTime": 100,
-      "drag": 0.01,
-      "shootCone": 2
-    },
-    "sulfur": {
-      "type": "LiquidBulletType",
-      "bullets": 2,
-      "liquid": "sulfur",
-      "damage": 5,
-      "speed": 7,
-      "puddleSize": 0,
-      "lifetime": 150,
-      "drag": 0.03,
-      "orbSize": 2,
-      "shootCone": 2
-    },
-    "water": {
+    "name": "Wave",
+    "type": "LiquidTurret",
+"requirements": [
+  {
+    "item": "metaglass",
+    "amount": 45
+  },
+  {
+    "item": "lead",
+    "amount": 75
+  },
+  {
+    "item": "copper",
+    "amount": 25
+  },
+  {
+    "item": "circuit-copper",
+    "amount": 5
+  }
+],
+    "ammo": {
+      "water": {
         "type": "LiquidBulletType",
+        "liquid": "Liquids.water",
         "knockback": 0.7,
-        "drag": 0.01
-    },
-    "cryofluid": {
-        "type": "LiquidBulletType",
-        "drag": 0.01
-    },
-    "oil": {
-        "type": "LiquidBulletType",
-        "drag": 0.01
-    },
-    "slag": {
-        "type": "LiquidBulletType",
         "drag": 0.01,
-        "damage": 4
-    }
-    },
-    "requirements": [
-      {
-        "item": "lead",
-        "amount": 400
+        "layer": "Layer.bullet - 2"
       },
-      {
-        "item": "metaglass",
-        "amount": 100
+      "slag": {
+        "type": "LiquidBulletType",
+        "liquid": "Liquids.slag",
+        "damage": 4,
+        "drag": 0.01
       },
-      {
-        "item": "titanium",
-        "amount": 250
+      "cryofluid": {
+        "type": "LiquidBulletType",
+        "liquid": "Liquids.cryofluid",
+        "drag": 0.01
       },
-      {
-        "item": "thorium",
-        "amount": 100
-      },
-      {
-        "item": "circuit",
-        "amount": 10
+      "oil": {
+        "type": "LiquidBulletType",
+        "liquid": "Liquids.oil",
+        "drag": 0.01,
+        "layer": "Layer.bullet - 2"
       }
+    },
+    "size": 2,
+    "recoil": 0,
+    "reload": 3,
+    "inaccuracy": 5,
+    "shootCone": 50,
+    "liquidCapacity": 10,
+    "shootEffect": "Fx.shootLiquid",
+    "range": 110,
+    "scaledHealth": 250,
+    "flags": [
+      "BlockFlag.turret",
+      "BlockFlag.extinguisher"
     ]
   }
+  

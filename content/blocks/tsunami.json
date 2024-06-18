@@ -1,59 +1,100 @@
 {
-    "ammoTypes": {
-    "ozone": {
-      "type": "LiquidBulletType",
-      "bullets": 5,
-      "liquid": "ozone",
-      "damage": 0.2,
-      "knockback": 2.5,
-      "speed": 10,
-      "puddleSize": 1,
-      "lifetime": 100,
-      "drag": 0.05,
-      "orbSize": 3,
-      "shootCone": 5
-      },
-      "oxygen-sulfide": {
-        "type": "LiquidBulletType",
-        "bullets": 4,
-        "liquid": "oxygen-sulfide",
-        "damage": 0.2,
-        "boilTime": 100,
-        "drag": 0.01,
-        "shootCone": 3
-      },
-    "sulfur": {
-      "type": "LiquidBulletType",
-      "bullets": 2,
-      "liquid": "sulfur",
-      "damage": 7,
-      "speed": 7,
-      "puddleSize": 0,
-      "lifetime": 150,
-      "drag": 0.03,
-      "orbSize": 2,
-      "shootCone": 2
-    },
-    "water": {
-        "type": "LiquidBulletType",
-        "damage": 0.2,
-        "knockback": 0.7,
-        "drag": 0.01
-    },
-    "cryofluid": {
-        "type": "LiquidBulletType",
-        "damage": 0.2,
-        "drag": 0.01
-    },
-    "oil": {
-        "type": "LiquidBulletType",
-        "damage": 0.2,
-        "drag": 0.01
-    },
-    "slag": {
-        "type": "LiquidBulletType",
-        "drag": 0.01,
-        "damage": 4.75
-    }
-    }
+    "name": "Tsunami",
+    "type": "LiquidTurret",
+"requirements": [
+  {
+    "item": "metaglass",
+    "amount": 100
+  },
+  {
+    "item": "lead",
+    "amount": 400
+  },
+  {
+    "item": "titanium",
+    "amount": 250
+  },
+  {
+    "item": "thorium",
+    "amount": 100
+  },
+  {
+    "item": "circuit-surge",
+    "amount": 5
   }
+],
+    "ammo": {
+      "water": {
+        "type": "LiquidBulletType",
+        "liquid": "Liquids.water",
+        "lifetime": 49,
+        "speed": 4,
+        "knockback": 1.7,
+        "puddleSize": 8,
+        "orbSize": 4,
+        "drag": 0.001,
+        "ammoMultiplier": 0.4,
+        "statusDuration": 240,
+        "damage": 0.2,
+        "layer": "Layer.bullet - 2"
+      },
+      "slag": {
+        "type": "LiquidBulletType",
+        "liquid": "Liquids.slag",
+        "lifetime": 49,
+        "speed": 4,
+        "knockback": 1.3,
+        "puddleSize": 8,
+        "orbSize": 4,
+        "damage": 4.75,
+        "drag": 0.001,
+        "ammoMultiplier": 0.4,
+        "statusDuration": 240
+      },
+      "cryofluid": {
+        "type": "LiquidBulletType",
+        "liquid": "Liquids.cryofluid",
+        "lifetime": 49,
+        "speed": 4,
+        "knockback": 1.3,
+        "puddleSize": 8,
+        "orbSize": 4,
+        "drag": 0.001,
+        "ammoMultiplier": 0.4,
+        "statusDuration": 240,
+        "damage": 0.2
+      },
+      "oil": {
+        "type": "LiquidBulletType",
+        "liquid": "Liquids.oil",
+        "lifetime": 49,
+        "speed": 4,
+        "knockback": 1.3,
+        "puddleSize": 8,
+        "orbSize": 4,
+        "drag": 0.001,
+        "ammoMultiplier": 0.4,
+        "statusDuration": 240,
+        "damage": 0.2,
+        "layer": "Layer.bullet - 2"
+      }
+    },
+    "size": 3,
+    "reload": 3,
+    "shoot": {
+      "shots": 2
+    },
+    "velocityRnd": 0.1,
+    "inaccuracy": 4,
+    "recoil": 1,
+    "shootCone": 45,
+    "liquidCapacity": 40,
+    "shootEffect": "Fx.shootLiquid",
+    "range": 190,
+    "scaledHealth": 250,
+    "flags": [
+      "BlockFlag.turret",
+      "BlockFlag.extinguisher"
+    ]
+  }
+  
