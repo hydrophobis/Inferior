@@ -1,0 +1,73 @@
+{
+    "type": "GenericCrafter",
+    "name": "Titanium Circuit Reassembler",
+    "description": "Assembles components into titanium circuits",
+    "outputItem": {"item": "circuit-titanium", "amount": 1},
+    "drawer": {"type": "DrawDefault"},
+    "health": 600,
+    "itemCapacity": 10,
+    "size": 2,
+    "craftTime": 90,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 2,
+      "items": {
+        "items": [
+          {
+            "item": "titanium",
+            "amount": 3
+          },
+          {
+            "item": "resistor",
+            "amount": 6
+          },
+          {
+            "item": "circuit-lead",
+            "amount": 2
+          },
+          {
+            "item": "wafer",
+            "amount":  2
+          }
+        ]
+      },
+      "liquids": {
+        "liquids": [
+            {
+                "liquid": "solder",
+                "amount": 0.018
+            }
+        ]
+      }
+    },
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 400
+      },
+      {
+        "item": "lead",
+        "amount": 200
+      },
+      {
+        "item": "titanium",
+        "amount": 100
+      },
+      {
+        "item": "resistor",
+        "amount": 15
+      },
+      {
+        "item": "circuit-lead",
+        "amount": 15
+      },
+      {
+        "item": "wire",
+        "amount": 35
+      }
+    ],
+    "category": "crafting",
+    "research": "circuit-lead-as"
+  }

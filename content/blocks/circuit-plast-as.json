@@ -1,0 +1,73 @@
+{
+    "type": "GenericCrafter",
+    "name": "Plastanium Circuit Reassembler",
+    "description": "Assembles components into plastanium circuits",
+    "outputItem": {"item": "circuit-plast", "amount": 1},
+    "drawer": {"type": "DrawDefault"},
+    "health": 600,
+    "itemCapacity": 10,
+    "size": 2,
+    "craftTime": 120,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 2,
+      "items": {
+        "items": [
+          {
+            "item": "plastanium",
+            "amount": 3
+          },
+          {
+            "item": "resistor",
+            "amount": 10
+          },
+          {
+            "item": "circuit-titanium",
+            "amount": 2
+          },
+          {
+            "item": "wafer",
+            "amount":  2
+          }
+        ]
+      },
+      "liquids": {
+        "liquids": [
+            {
+                "liquid": "solder",
+                "amount": 0.018
+            }
+        ]
+      }
+    },
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 450
+      },
+      {
+        "item": "lead",
+        "amount": 250
+      },
+      {
+        "item": "titanium",
+        "amount": 200
+      },
+      {
+        "item": "resistor",
+        "amount": 25
+      },
+      {
+        "item": "circuit-titanium",
+        "amount": 20
+      },
+      {
+        "item": "wire",
+        "amount": 45
+      }
+    ],
+    "category": "crafting",
+    "research": "circuit-titanium-as"
+  }

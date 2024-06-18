@@ -1,0 +1,77 @@
+{
+    "type": "GenericCrafter",
+    "name": "Surge Circuit Reassembler",
+    "description": "Assembles components into surge circuits",
+    "outputItem": {"item": "circuit-surge", "amount": 1},
+    "drawer": {"type": "DrawDefault"},
+    "health": 700,
+    "itemCapacity": 10,
+    "size": 2,
+    "craftTime": 150,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 2,
+      "items": {
+        "items": [
+          {
+            "item": "surge-alloy",
+            "amount": 4
+          },
+          {
+            "item": "resistor",
+            "amount": 15
+          },
+          {
+            "item": "circuit-plast",
+            "amount": 3
+          },
+          {
+            "item": "wafer",
+            "amount":  3
+          }
+        ]
+      },
+      "liquids": {
+        "liquids": [
+            {
+                "liquid": "solder",
+                "amount": 0.02
+            }
+        ]
+      }
+    },
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 450
+      },
+      {
+        "item": "lead",
+        "amount": 250
+      },
+      {
+        "item": "titanium",
+        "amount": 200
+      },
+      {
+        "item": "plastanium",
+        "amount": 50
+      },
+      {
+        "item": "resistor",
+        "amount": 25
+      },
+      {
+        "item": "circuit-plast",
+        "amount": 20
+      },
+      {
+        "item": "wire",
+        "amount": 45
+      }
+    ],
+    "category": "crafting",
+    "research": "circuit-plast-as"
+  }

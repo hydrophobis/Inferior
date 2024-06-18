@@ -1,0 +1,69 @@
+{
+    "type": "GenericCrafter",
+    "name": "Lead Circuit Reassembler",
+    "description": "Assembles components into lead circuits",
+    "outputItem": {"item": "circuit-lead", "amount": 1},
+    "drawer": {"type": "DrawDefault"},
+    "health": 600,
+    "itemCapacity": 10,
+    "size": 2,
+    "craftTime": 90,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 2,
+      "items": {
+        "items": [
+          {
+            "item": "lead",
+            "amount": 3
+          },
+          {
+            "item": "resistor",
+            "amount": 4
+          },
+          {
+            "item": "circuit-copper",
+            "amount": 2
+          },
+          {
+            "item": "wafer",
+            "amount":  1
+          }
+        ]
+      },
+      "liquids": {
+        "liquids": [
+            {
+                "liquid": "solder",
+                "amount": 0.015
+            }
+        ]
+      }
+    },
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 300
+      },
+      {
+        "item": "lead",
+        "amount": 100
+      },
+      {
+        "item": "resistor",
+        "amount": 25
+      },
+      {
+        "item": "circuit-copper",
+        "amount": 10
+      },
+      {
+        "item": "wire",
+        "amount": 20
+      }
+    ],
+    "category": "crafting",
+    "research": "circuit-copper-as"
+  }
