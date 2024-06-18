@@ -8,6 +8,7 @@
     "charge": 0.07,
     "frames": 3,
     "transitionFrames": 1,
+    "frameTime": 2.5,
     "research": {
       "parent": "titanium"
     }
