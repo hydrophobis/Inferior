@@ -1,0 +1,124 @@
+{
+    "name": "Salvo",
+    "type": "ItemTurret",
+    "requirements": {
+      "category": "turret",
+      "items": {
+        "copper": 100,
+        "graphite": 80,
+        "titanium": 50,
+        "circuit-copper": 5 
+      }
+    },
+    "ammo": {
+      "copper": {
+        "type": "BasicBulletType",
+        "speed": 2.5,
+        "damage": 11,
+        "width": 7,
+        "height": 9,
+        "lifetime": 60,
+        "ammoMultiplier": 2
+      },
+      "graphite": {
+        "type": "BasicBulletType",
+        "speed": 3.5,
+        "damage": 20,
+        "width": 9,
+        "height": 12,
+        "reloadMultiplier": 0.6,
+        "ammoMultiplier": 4,
+        "lifetime": 60
+      },
+      "pyratite": {
+        "type": "BasicBulletType",
+        "speed": 3.2,
+        "damage": 18,
+        "width": 10,
+        "height": 12,
+        "frontColor": "Pal.lightishOrange",
+        "backColor": "Pal.lightOrange",
+        "status": "StatusEffects.burning",
+        "hitEffect": [
+          "Fx.hitBulletSmall",
+          "Fx.fireHit"
+        ],
+        "ammoMultiplier": 5,
+        "splashDamage": 12,
+        "splashDamageRadius": 22,
+        "makeFire": true,
+        "lifetime": 60
+      },
+      "silicon": {
+        "type": "BasicBulletType",
+        "speed": 3,
+        "damage": 15,
+        "width": 7,
+        "height": 9,
+        "homingPower": 0.1,
+        "reloadMultiplier": 1.5,
+        "ammoMultiplier": 5,
+        "lifetime": 60
+      },
+      "thorium": {
+        "type": "BasicBulletType",
+        "speed": 4,
+        "damage": 29,
+        "width": 10,
+        "height": 13,
+        "shootEffect": "Fx.shootBig",
+        "smokeEffect": "Fx.shootBigSmoke",
+        "ammoMultiplier": 4,
+        "lifetime": 60
+      }
+    },
+    "drawer": {
+      "type": "DrawTurret",
+      "parts": [
+        {
+          "type": "RegionPart",
+          "name": "-side",
+          "progress": "warmup",
+          "moveX": 0.6,
+          "moveRot": -15,
+          "mirror": true,
+          "layerOffset": 0.001,
+          "moves": [
+            {
+              "type": "PartMove",
+              "progress": "recoil",
+              "x": 0.5,
+              "y": -0.5,
+              "rot": -8
+            }
+          ]
+        },
+        {
+          "type": "RegionPart",
+          "name": "-barrel",
+          "progress": "recoil",
+          "moveY": -2.5
+        }
+      ]
+    },
+    "size": 2,
+    "range": 190,
+    "reload": 31,
+    "consumeAmmoOnce": false,
+    "ammoEjectBack": 3,
+    "recoil": 0,
+    "shake": 1,
+    "shoot": {
+      "shots": 4,
+      "shotDelay": 3
+    },
+    "ammoUseEffect": "Fx.casing2",
+    "scaledHealth": 240,
+    "shootSound": "Sounds.shootBig",
+    "limitRange": true,
+    "coolant": {
+      "type": "consumeCoolant",
+      "amount": 0.2
+    }
+  }
+  

@@ -1,0 +1,23 @@
+{
+    "name": "Parallax",
+    "type": "TractorBeamTurret",
+    "requirements": {
+      "category": "turret",
+      "items": {
+        "silicon": 120,
+        "titanium": 90,
+        "graphite": 30,
+        "circuit-titanium": 2
+      }
+    },
+    "hasPower": true,
+    "size": 2,
+    "force": 12,
+    "scaledForce": 6,
+    "range": 240,
+    "damage": 0.3,
+    "scaledHealth": 160,
+    "rotateSpeed": 10,
+    "consumePower": 3
+  }
+  

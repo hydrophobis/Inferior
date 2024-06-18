@@ -1,0 +1,25 @@
+{
+    "name": "Segment",
+    "type": "PointDefenseTurret",
+    "requirements": {
+      "category": "turret",
+      "items": {
+        "silicon": 130,
+        "thorium": 80,
+        "phaseFabric": 40,
+        "titanium": 40,
+        "circuit-plast": 5,
+        "circuit-titanium": 3
+      }
+    },
+    "scaledHealth": 250,
+    "range": 180,
+    "hasPower": true,
+    "consumePower": 8,
+    "size": 2,
+    "shootLength": 5,
+    "bulletDamage": 30,
+    "reload": 8,
+    "envEnabled": "Env.space"
+  }
+  

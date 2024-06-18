@@ -1,0 +1,89 @@
+{
+    "name": "Swarmer",
+    "type": "ItemTurret",
+    "requirements": {
+      "category": "turret",
+      "items": {
+        "graphite": 35,
+        "titanium": 35,
+        "plastanium": 45,
+        "silicon": 30,
+        "circuit-plast": 3
+      }
+    },
+    "ammo": {
+      "blastCompound": {
+        "type": "MissileBulletType",
+        "speed": 3.7,
+        "damage": 10,
+        "width": 8,
+        "height": 8,
+        "shrinkY": 0,
+        "splashDamageRadius": 30,
+        "splashDamage": 45,
+        "ammoMultiplier": 5,
+        "hitEffect": "Fx.blastExplosion",
+        "despawnEffect": "Fx.blastExplosion",
+        "status": "StatusEffects.blasted",
+        "statusDuration": 60
+      },
+      "pyratite": {
+        "type": "MissileBulletType",
+        "speed": 3.7,
+        "damage": 12,
+        "frontColor": "Pal.lightishOrange",
+        "backColor": "Pal.lightOrange",
+        "width": 7,
+        "height": 8,
+        "shrinkY": 0,
+        "homingPower": 0.08,
+        "splashDamageRadius": 20,
+        "splashDamage": 45,
+        "makeFire": true,
+        "ammoMultiplier": 5,
+        "hitEffect": "Fx.blastExplosion",
+        "status": "StatusEffects.burning"
+      },
+      "surgeAlloy": {
+        "type": "MissileBulletType",
+        "speed": 3.7,
+        "damage": 18,
+        "width": 8,
+        "height": 8,
+        "shrinkY": 0,
+        "splashDamageRadius": 25,
+        "splashDamage": 35,
+        "hitEffect": "Fx.blastExplosion",
+        "despawnEffect": "Fx.blastExplosion",
+        "ammoMultiplier": 4,
+        "lightningDamage": 10,
+        "lightning": 2,
+        "lightningLength": 10
+      }
+    },
+    "shoot": {
+      "type": "ShootBarrel",
+      "barrels": [
+        -4, -1.25, 0,
+        0, 0, 0,
+        4, -1.25, 0
+      ],
+      "shots": 4,
+      "shotDelay": 5
+    },
+    "shootY": 4.5,
+    "reload": 30,
+    "inaccuracy": 10,
+    "range": 240,
+    "consumeAmmoOnce": false,
+    "size": 2,
+    "scaledHealth": 300,
+    "shootSound": "Sounds.missile",
+    "envEnabled": "Env.space",
+    "limitRange": 5,
+    "coolant": {
+      "type": "consumeCoolant",
+      "amount": 0.3
+    }
+  }
+  

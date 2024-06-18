@@ -1,0 +1,57 @@
+{
+    "type": "GenericCrafter",
+    "name": "ATS Assembler",
+    "description": "Assembles components into Advanced Targeting Systems",
+    "outputItem": {"item": "targeting-system", "amount": 1},
+    "drawer": {"type": "DrawDefault"},
+    "health": 600,
+    "itemCapacity": 10,
+    "size": 2,
+    "craftTime": 600,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 2,
+      "items": {
+        "items": [
+          {
+            "item": "wire",
+            "amount": 6
+          },
+          {
+            "item": "plastanium",
+            "amount": 3
+          },
+          {
+            "item": "circuit-surge",
+            "amount": 2
+          },
+          {
+            "item": "circuit-phase",
+            "amount":  1
+          }
+        ]
+      },
+      "liquids": {
+        "liquids": [
+            {
+                "liquid": "solder",
+                "amount": 0.03
+            }
+        ]
+      }
+    },
+    "requirements": {
+        "category": "crafting",
+        "items": {
+          "copper": 200,
+          "plastanium": 150,
+          "titanium": 50,
+          "circuit-phase": 2,
+          "circuit-surge": 1,
+          "circuit-plast": 1
+        },
+        "research": "circuit-phase-as"
+    }
+  }

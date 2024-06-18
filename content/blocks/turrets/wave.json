@@ -1,0 +1,53 @@
+{
+    "name": "Wave",
+    "type": "LiquidTurret",
+    "requirements": {
+      "category": "turret",
+      "items": {
+        "metaglass": 45,
+        "lead": 75,
+        "copper": 25,
+        "circuit-copper": 5
+      }
+    },
+    "ammo": {
+      "water": {
+        "type": "LiquidBulletType",
+        "liquid": "Liquids.water",
+        "knockback": 0.7,
+        "drag": 0.01,
+        "layer": "Layer.bullet - 2"
+      },
+      "slag": {
+        "type": "LiquidBulletType",
+        "liquid": "Liquids.slag",
+        "damage": 4,
+        "drag": 0.01
+      },
+      "cryofluid": {
+        "type": "LiquidBulletType",
+        "liquid": "Liquids.cryofluid",
+        "drag": 0.01
+      },
+      "oil": {
+        "type": "LiquidBulletType",
+        "liquid": "Liquids.oil",
+        "drag": 0.01,
+        "layer": "Layer.bullet - 2"
+      }
+    },
+    "size": 2,
+    "recoil": 0,
+    "reload": 3,
+    "inaccuracy": 5,
+    "shootCone": 50,
+    "liquidCapacity": 10,
+    "shootEffect": "Fx.shootLiquid",
+    "range": 110,
+    "scaledHealth": 250,
+    "flags": [
+      "BlockFlag.turret",
+      "BlockFlag.extinguisher"
+    ]
+  }
+  

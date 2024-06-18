@@ -1,0 +1,51 @@
+{
+    "meltdown": {
+      "type": "LaserTurret",
+      "localizedName": "Meltdown",
+      "description": "A devastating laser turret.",
+      "size": 4,
+      "health": 200,
+      "range": 195,
+      "reloadTime": 90,
+      "recoilTime": 180,
+      "cooldown": 90,
+      "powerUse": 17,
+      "shootCone": 40,
+      "shootSound": "laserbig",
+      "loopSound": "beam",
+      "loopSoundVolume": 2,
+      "shootDuration": 230,
+      "shootType": {
+        "type": "ContinuousLaserBulletType",
+        "length": 200,
+        "damage": 78,
+        "incendChance": 0.4,
+        "incendSpread": 5,
+        "incendAmount": 1,
+        "hitEffect": "hitMeltdown",
+        "hitColor": "meltdownHit",
+        "status": "melting",
+        "timescaleDamage": true
+      },
+      "recoilAmount": 4,
+      "shake": 2,
+      "firingMoveFract": 0.5,
+      "environment": "space",
+      "coolantMultiplier": 0.5,
+      "consumes": {
+        "items": {
+          "copper": 1200,
+          "lead": 350,
+          "graphite": 300,
+          "surge-alloy": 325,
+          "silicon": 325,
+          "wire": 50,
+          "circuit-surge": 20,
+          "circuit-plast": 5,
+          "cooler": 10
+        },
+        "coolant": 0.5
+      }
+    }
+  }
+  
