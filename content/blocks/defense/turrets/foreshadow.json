@@ -1,47 +1,4 @@
 {
-
-    "localizedName": "Foreshadow",
-    "description": "A powerful railgun turret.",
-    "size": 4,
-    "health": 150,
-    "range": 500,
-    "rotateSpeed": 2,
-    "reloadTime": 200,
-    "cooldown": 200,
-    "powerUse": 10,
-    "ammoPerShot": 5,
-    "maxAmmo": 40,
-    "ammoTypes": [
-      {
-        "ammo": "surge-alloy",
-        "bullet": {
-          "type": "RailBulletType",
-          "damage": 1350,
-          "buildingDamageMultiplier": 0.2,
-          "maxDamageFraction": 0.6,
-          "pierceDamageFactor": 1,
-          "length": 500,
-          "hitShake": 6,
-          "ammoMultiplier": 1,
-          "effects": {
-            "shoot": "instShoot",
-            "hit": "instHit",
-            "pierce": "railHit",
-            "smoke": "smokeCloud",
-            "trail": "instTrail",
-            "despawn": "instBomb"
-          }
-        }
-      }
-    ],
-    "shootCone": 2,
-    "shootSound": "railgun",
-    "ammoUseEffect": "casing3Double",
-    "recoilAmount": 5,
-    "shake": 4,
-    "unitSort": "strongest",
-    "environment": "space",
-    "coolantMultiplier": 0.4,
     "requirements": [
       {
         "item": "surge-alloy",
