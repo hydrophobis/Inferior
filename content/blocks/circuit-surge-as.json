@@ -5,7 +5,7 @@
     "outputItem": {"item": "circuit-surge", "amount": 1},
     "drawer": {"type": "DrawDefault"},
     "health": 700,
-    "itemCapacity": 10,
+    "itemCapacity": 15,
     "size": 2,
     "craftTime": 150,
     "hasPower": true,
