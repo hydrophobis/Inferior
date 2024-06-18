@@ -1,5 +1,4 @@
 {
-    "meltdown": {
       "type": "LaserTurret",
       "localizedName": "Meltdown",
       "description": "A devastating laser turret.",
@@ -32,20 +31,47 @@
       "firingMoveFract": 0.5,
       "environment": "space",
       "coolantMultiplier": 0.5,
-      "consumes": {
-        "items": {
-          "copper": 1200,
-          "lead": 350,
-          "graphite": 300,
-          "surge-alloy": 325,
-          "silicon": 325,
-          "wire": 50,
-          "circuit-surge": 20,
-          "circuit-plast": 5,
-          "cooler": 10
+      "requirements": [
+        {
+          "item": "copper",
+          "amount": 1200
         },
-        "coolant": 0.5
+        {
+          "item": "lead",
+          "amount": 350
+        },
+        {
+          "item": "graphite",
+          "amount": 300
+        },
+        {
+          "item": "surge-alloy",
+          "amount": 325
+        },
+        {
+          "item": "silicon",
+          "amount": 325
+        },
+        {
+          "item": "wire",
+          "amount": 50
+        },
+        {
+          "item": "circuit-surge",
+          "amount": 20
+        },
+        {
+          "item": "circuit-plast",
+          "amount": 5
+        },
+        {
+          "item": "cooler",
+          "amount": 10
+        }
+      ],
+      "coolant": {
+        "type": "consumeCoolant",
+        "amount": 0.5
       }
     }
-  }
   

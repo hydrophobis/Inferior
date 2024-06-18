@@ -1,16 +1,28 @@
 {
     "name": "Tsunami",
     "type": "LiquidTurret",
-    "requirements": {
-      "category": "turret",
-      "items": {
-        "metaglass": 100,
-        "lead": 400,
-        "titanium": 250,
-        "thorium": 100,
-        "circuit-surge": 5
-      }
-    },
+"requirements": [
+  {
+    "item": "metaglass",
+    "amount": 100
+  },
+  {
+    "item": "lead",
+    "amount": 400
+  },
+  {
+    "item": "titanium",
+    "amount": 250
+  },
+  {
+    "item": "thorium",
+    "amount": 100
+  },
+  {
+    "item": "circuit-surge",
+    "amount": 5
+  }
+],
     "ammo": {
       "water": {
         "type": "LiquidBulletType",

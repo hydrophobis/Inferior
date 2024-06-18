@@ -1,15 +1,24 @@
 {
     "name": "Wave",
     "type": "LiquidTurret",
-    "requirements": {
-      "category": "turret",
-      "items": {
-        "metaglass": 45,
-        "lead": 75,
-        "copper": 25,
-        "circuit-copper": 5
-      }
-    },
+"requirements": [
+  {
+    "item": "metaglass",
+    "amount": 45
+  },
+  {
+    "item": "lead",
+    "amount": 75
+  },
+  {
+    "item": "copper",
+    "amount": 25
+  },
+  {
+    "item": "circuit-copper",
+    "amount": 5
+  }
+],
     "ammo": {
       "water": {
         "type": "LiquidBulletType",

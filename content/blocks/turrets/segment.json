@@ -1,25 +1,39 @@
 {
-    "name": "Segment",
-    "type": "PointDefenseTurret",
-    "requirements": {
-      "category": "turret",
-      "items": {
-        "silicon": 130,
-        "thorium": 80,
-        "phaseFabric": 40,
-        "titanium": 40,
-        "circuit-plast": 5,
-        "circuit-titanium": 3
-      }
+  "name": "Segment",
+  "type": "PointDefenseTurret",
+  "requirements": [
+    {
+      "item": "silicon",
+      "amount": 130
     },
-    "scaledHealth": 250,
-    "range": 180,
-    "hasPower": true,
-    "consumePower": 8,
-    "size": 2,
-    "shootLength": 5,
-    "bulletDamage": 30,
-    "reload": 8,
-    "envEnabled": "Env.space"
-  }
-  
+    {
+      "item": "thorium",
+      "amount": 80
+    },
+    {
+      "item": "phaseFabric",
+      "amount": 40
+    },
+    {
+      "item": "titanium",
+      "amount": 40
+    },
+    {
+      "item": "circuit-plast",
+      "amount": 5
+    },
+    {
+      "item": "circuit-titanium",
+      "amount": 3
+    }
+  ],
+  "scaledHealth": 250,
+  "range": 180,
+  "hasPower": true,
+  "consumePower": 8,
+  "size": 2,
+  "shootLength": 5,
+  "bulletDamage": 30,
+  "reload": 8,
+  "envEnabled": "Env.space"
+}

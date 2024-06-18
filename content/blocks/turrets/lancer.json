@@ -1,58 +1,69 @@
 {
-    "name": "Lancer",
-    "type": "PowerTurret",
-    "requirements": {
-      "category": "turret",
-      "items": {
-        "copper": 60,
-        "lead": 70,
-        "silicon": 60,
-        "titanium": 30,
-        "circuit-lead": 3
-      }
+  "name": "Lancer",
+  "type": "PowerTurret",
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 60
     },
-    "range": 165,
-    "shoot": {
-      "firstShotDelay": 40
+    {
+      "item": "lead",
+      "amount": 70
     },
-    "recoil": 2,
-    "reload": 80,
-    "shake": 2,
-    "shootEffect": "Fx.lancerLaserShoot",
-    "smokeEffect": "Fx.none",
-    "heatColor": "Color.red",
-    "size": 2,
-    "scaledHealth": 280,
-    "targetAir": false,
-    "moveWhileCharging": false,
-    "accurateDelay": false,
-    "shootSound": "Sounds.laser",
-    "coolant": {
-      "type": "consumeCoolant",
-      "amount": 0.2
+    {
+      "item": "silicon",
+      "amount": 60
     },
-    "consumePower": 6,
-    "shootType": {
-      "type": "LaserBulletType",
-      "damage": 140,
-      "colors": [
-        "Pal.lancerLaser.cpy().a(0.4)",
-        "Pal.lancerLaser",
-        "Color.white"
-      ],
-      "chargeEffect": [
-        "Fx.lancerLaserCharge",
-        "Fx.lancerLaserChargeBegin"
-      ],
-      "buildingDamageMultiplier": 0.25,
-      "hitEffect": "Fx.hitLancer",
-      "hitSize": 4,
-      "lifetime": 16,
-      "drawSize": 400,
-      "collidesAir": false,
-      "length": 173,
-      "ammoMultiplier": 1,
-      "pierceCap": 4
+    {
+      "item": "titanium",
+      "amount": 30
+    },
+    {
+      "item": "circuit-lead",
+      "amount": 3
     }
+  ],
+  "range": 165,
+  "shoot": {
+    "firstShotDelay": 40
+  },
+  "recoil": 2,
+  "reload": 80,
+  "shake": 2,
+  "shootEffect": "Fx.lancerLaserShoot",
+  "smokeEffect": "Fx.none",
+  "heatColor": "Color.red",
+  "size": 2,
+  "scaledHealth": 280,
+  "targetAir": false,
+  "moveWhileCharging": false,
+  "accurateDelay": false,
+  "shootSound": "Sounds.laser",
+  "coolant": {
+    "type": "consumeCoolant",
+    "amount": 0.2
+  },
+  "consumePower": 6,
+  "shootType": {
+    "type": "LaserBulletType",
+    "damage": 140,
+    "colors": [
+      "Pal.lancerLaser.cpy().a(0.4)",
+      "Pal.lancerLaser",
+      "Color.white"
+    ],
+    "chargeEffect": [
+      "Fx.lancerLaserCharge",
+      "Fx.lancerLaserChargeBegin"
+    ],
+    "buildingDamageMultiplier": 0.25,
+    "hitEffect": "Fx.hitLancer",
+    "hitSize": 4,
+    "lifetime": 16,
+    "drawSize": 400,
+    "collidesAir": false,
+    "length": 173,
+    "ammoMultiplier": 1,
+    "pierceCap": 4
   }
-  
+}

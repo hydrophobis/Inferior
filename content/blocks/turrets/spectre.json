@@ -75,17 +75,37 @@
     "inaccuracy": 3,
     "environment": "none",
     "coolantMultiplier": 0.5,
-    "consumes": {
-      "items": {
-        "copper": 900,
-        "graphite": 300,
-        "surge-alloy": 250,
-        "plastanium": 175,
-        "thorium": 250,
-        "circuit-plast": 15,
-        "circuit-titanium": 1
-      },
+"requirements": [
+  {
+    "item": "copper",
+    "amount": 900
+  },
+  {
+    "item": "graphite",
+    "amount": 300
+  },
+  {
+    "item": "surge-alloy",
+    "amount": 250
+  },
+  {
+    "item": "plastanium",
+    "amount": 175
+  },
+  {
+    "item": "thorium",
+    "amount": 250
+  },
+  {
+    "item": "circuit-plast",
+    "amount": 15
+  },
+  {
+    "item": "circuit-titanium",
+    "amount": 1
+  }
+],
+
       "coolant": 1
     }
   }
-}

@@ -1,16 +1,29 @@
 {
     "name": "Swarmer",
     "type": "ItemTurret",
-    "requirements": {
-      "category": "turret",
-      "items": {
-        "graphite": 35,
-        "titanium": 35,
-        "plastanium": 45,
-        "silicon": 30,
-        "circuit-plast": 3
-      }
-    },
+"requirements": [
+  {
+    "item": "graphite",
+    "amount": 35
+  },
+  {
+    "item": "titanium",
+    "amount": 35
+  },
+  {
+    "item": "plastanium",
+    "amount": 45
+  },
+  {
+    "item": "silicon",
+    "amount": 30
+  },
+  {
+    "item": "circuit-plast",
+    "amount": 3
+  }
+],
+
     "ammo": {
       "blastCompound": {
         "type": "MissileBulletType",
