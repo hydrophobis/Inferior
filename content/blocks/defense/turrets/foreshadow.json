@@ -35,6 +35,10 @@
       {
         "item": "cooler",
         "amount": 2
+      },
+      {
+        "item": "targeting-system",
+        "amount": 1
       }
     ],
     "coolant": {
