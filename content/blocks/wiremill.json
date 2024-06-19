@@ -12,7 +12,7 @@
     "hasLiquids": false,
     "hasItems": true,
     "consumes": {
-      "power": 0.8,
+      "power": 0.1,
       "items": {
         "items": [
           {
