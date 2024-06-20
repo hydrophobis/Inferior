@@ -1,3 +1,4 @@
 {
-    "itemCapacity": 50
+    "itemCapacity": 50,
+    "launchTime": 1500
 }
