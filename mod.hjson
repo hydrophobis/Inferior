@@ -14,11 +14,12 @@
     description:
         '''
         
-        Makes the game [red]much [white]harder. Most of your current schematics will [red]NOT [white]work, and adds extra steps to some processing chains
+        Makes the game multiple times harder by nerfing anything that was remotely good into oblivion
+        and using various methods to prevent schems from working and generally make processing harder
 
         '''
 
     subtitle: "A hardcore mod"
     minGameVersion: 144.3
-    version: "2.7.2"
+    version: "2.7.3"
 }
