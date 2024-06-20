@@ -2,6 +2,7 @@
     displayName: Chemistry
     repo: CamoGekko/Chemistry
     name: chem
+    icon: icon.png
 
     author:
         '''
