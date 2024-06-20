@@ -1,0 +1,20 @@
+{
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 150
+        },
+        {
+            "item": "graphite",
+            "amount": 135
+        },
+        {
+            "item": "titanium",
+            "amount": 60
+        },
+        {
+            "item": "circuit-titanium",
+            "amount": 2
+        }
+    ]
+}
