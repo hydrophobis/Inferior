@@ -1,3 +1,25 @@
 {
-    "drillTime": 300
+    "drillTime": 300,
+    "requirements":[
+        {
+            "item": "copper",
+            "amount": 65
+        },
+        {
+            "item": "titanium",
+            "amount": 50
+        },
+        {
+            "item": "thorium",
+            "amount": 75
+        },
+        {
+            "item": "silicon",
+            "amount": 60
+        },
+        {
+            "item": "circuit-titanium",
+            "amount": 2
+        }
+    ]
 }
