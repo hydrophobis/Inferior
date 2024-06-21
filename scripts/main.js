@@ -1,1 +1,1 @@
-require("blocks.js");
+require("blocks");
