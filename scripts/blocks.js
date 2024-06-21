@@ -102,3 +102,10 @@ const LiquidSorterBuild = extendContent(LiquidRouter.LiquidRouterBuild, liquidSo
         }
     }
 });
+
+Vars.content.blocks().add(liquidSorter);
+
+Events.on(ClientLoadEvent, () => {
+    liquidSorter.load();
+    Vars.content.blocks().add(liquidSorter);
+});
