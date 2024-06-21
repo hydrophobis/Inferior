@@ -1,1 +1,1 @@
-require("blocks/LiquidSorter.js");
+require("blocks.js");
