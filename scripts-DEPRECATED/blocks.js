@@ -1,5 +1,5 @@
+// Deprecated because i want this mod to work on IOS(Fuck apple tho)
 const liquidSorter = extendContent(LiquidRouter, "liquid-sorter", {
-    // Define additional properties and configuration
     load() {
         this.super$load();
         this.cross = Core.atlas.find(this.name + "-cross", "cross-full");
@@ -101,4 +101,11 @@ const LiquidSorterBuild = extendContent(LiquidRouter.LiquidRouterBuild, liquidSo
             this.liquids.moveLiquid(targetTile, liquid, Math.min(10, this.liquids.get(liquid)));
         }
     }
+});
+
+Vars.content.blocks().add(liquidSorter);
+
+Events.on(ClientLoadEvent, () => {
+    liquidSorter.load();
+    Vars.content.blocks().add(liquidSorter);
 });
