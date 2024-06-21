@@ -1,7 +1,7 @@
 {
     "type": "GenericCrafter",
     "name": "Plastanium Solidifier",
-    "description": "Solidifies TiHSC2 liquid into its solid counterpart",
+    "description": "Cools liquid plastanium into its solid counterpart",
     "outputItem": {"item": "plastanium", "amount": 1},
     "drawer": {"type": "DrawDefault"},
     "itemCapacity": 5,

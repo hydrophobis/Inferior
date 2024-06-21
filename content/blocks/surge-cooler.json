@@ -1,61 +1,64 @@
 {
-    "type": "GenericCrafter",
-    "name": "Alloy Entropizer",
-    "description": "Cools down molten Cu2Pb4Ti2Si2",
-    "outputItem": {"item": "surge-alloy", "amount": 1},
-    "drawer": {"type": "DrawDefault"},
-    "itemCapacity": 10,
-    "size": 3,
-    "craftTime": 120,
-    "health": 450,
-    "hasPower": true,
-    "hasLiquids": true,
-    "hasItems": true,
-    "consumes": {
-      "power": 3,
-      "liquids": [
-        {
-            "liquid": "melted-surge",
-            "amount": 0.1666666
-        }
-      ]
-    },
-    "requirements": [
-  
+  "type": "GenericCrafter",
+  "name": "Alloy Entropizer",
+  "description": "Cools down molten surge alloy",
+  "outputItem": {
+    "item": "surge-alloy",
+    "amount": 1
+  },
+  "drawer": {
+    "type": "DrawDefault"
+  },
+  "itemCapacity": 10,
+  "size": 3,
+  "craftTime": 120,
+  "health": 450,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "consumes": {
+    "power": 3,
+    "liquids": [
       {
-        "item": "copper",
-        "amount": 300
-      },
-      {
-        "item": "titanium",
-        "amount": 150
-      }      ,
-      {
-        "item": "plastanium",
-        "amount": 75
-      },
-      {
-        "item": "silicon",
-        "amount": 60
-      },
-      {
-        "item": "graphite",
-        "amount": 50
-      },
-      {
-        "item": "wire",
-        "amount": 50
-      },
-      {
-        "item": "circuit-plast",
-        "amount": 5
-      },
-      {
-        "item": "cooler",
-        "amount": 4
+        "liquid": "melted-surge",
+        "amount": 0.1666666
       }
-    
-    ],
-    "category": "crafting",
-    "research": "surge-smelter"
-  }
+    ]
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 300
+    },
+    {
+      "item": "titanium",
+      "amount": 150
+    },
+    {
+      "item": "plastanium",
+      "amount": 75
+    },
+    {
+      "item": "silicon",
+      "amount": 60
+    },
+    {
+      "item": "graphite",
+      "amount": 50
+    },
+    {
+      "item": "wire",
+      "amount": 50
+    },
+    {
+      "item": "circuit-plast",
+      "amount": 5
+    },
+    {
+      "item": "cooler",
+      "amount": 4
+    }
+  ],
+  "category": "crafting",
+  "research": "surge-smelter"
+}
