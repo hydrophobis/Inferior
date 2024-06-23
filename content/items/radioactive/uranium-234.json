@@ -1,1 +1,12 @@
-{}
+{
+    "name": "Uranium-234",
+    "description": "Not recomended for consumption",
+    "cost": 2.5,
+    "color": "262626",
+    "flammability": 0,
+    "explosiveness": 0,
+    "radioactivity": 1.2,
+    "research": {
+      "parent": "thorium"
+    }
+}
