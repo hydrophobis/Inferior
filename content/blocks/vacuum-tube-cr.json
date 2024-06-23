@@ -6,7 +6,7 @@
     "drawer": {"type": "DrawMulti", "drawers": [ {"type": "DrawWeave", "suffix": "-weave"}, {"type": "DrawDefault"} ] },
     "itemCapacity": 5,
     "size": 2,
-    "craftTime": 1,
+    "craftTime": 600,
     "health": 240,
     "hasPower": true,
     "hasLiquids": false,
