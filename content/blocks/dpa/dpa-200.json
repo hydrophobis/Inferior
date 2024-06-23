@@ -3,7 +3,7 @@
     "name": "DPA-200",
     "description": "Makes deuterium go even faster",
     "outputItem": {
-      "item": "proactinium-234",
+      "item": "proactinium-233",
       "amount": 1
     },
     "drawer": {
