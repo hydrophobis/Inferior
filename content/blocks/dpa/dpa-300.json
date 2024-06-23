@@ -3,7 +3,7 @@
     "name": "DPA-300",
     "description": "Makes deuterium go even faster",
     "outputItem": {
-      "item": "thorium-234",
+      "item": "depleted-thorium",
       "amount": 1
     },
     "drawer": {
