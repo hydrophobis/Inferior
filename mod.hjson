@@ -19,7 +19,7 @@
 
         '''
 
-    subtitle: "A [red[]]hardcore[white[]] mod"
+    subtitle: "[white[]]A [red[]]hardcore[white[]] mod"
     minGameVersion: 144.3
     version: "2.7.3"
 }
