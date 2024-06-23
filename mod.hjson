@@ -7,19 +7,19 @@
     author:
         '''
         
-        [purple]CamoGekko
+        [orange[]]CamoGekko
 
         '''
 
     description:
         '''
         
-        Makes the game multiple times harder by nerfing anything that was remotely good into oblivion
-        and using various methods to prevent schematics from working and generally make processing harder
+        Makes the game multiple times [red[]]harder [white[]]by nerfing anything that was remotely good into [red[]]oblivion
+        [white[]]and using various methods to prevent schematics from working and generally make processing [red[]]harder[white[]]
 
         '''
 
-    subtitle: "A hardcore mod"
+    subtitle: "A [red[]]hardcore[white[]] mod"
     minGameVersion: 144.3
     version: "2.7.3"
 }
