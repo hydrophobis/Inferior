@@ -1,0 +1,59 @@
+{
+    "type": "GenericCrafter",
+    "name": "DPA-300",
+    "description": "Makes deuterium go even faster",
+    "outputItem": {
+      "item": "thorium-234",
+      "amount": 1
+    },
+    "drawer": {
+      "type": "DrawDefault"
+    },
+    "health": 1400,
+    "itemCapacity": 15,
+    "size": 3,
+    "craftTime": 30000,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 12,
+      "items": [
+        {
+          "item": "proactinium-233",
+          "amount": 3
+        }
+    ],
+    "liquids": [
+        {
+            "liquid": "alpha-particle",
+            "amount": 0.001
+        }
+    ]
+    },
+    "requirements": [
+        {
+          "item": "titanium",
+          "amount": 1200
+        },
+        {
+          "item": "silicon",
+          "amount": 600
+        },
+        {
+          "item": "circuit-titanium",
+          "amount": 30
+        },
+        {
+          "item": "circuit-plast",
+          "amount": 15
+        },
+        {
+          "item": "circuit-surge",
+          "amount": 10
+        }
+      ],
+    "research": "dpa-200",
+    "category": "crafting",
+    "researchCostMultiplier": 1.25
+  }
