@@ -1,0 +1,52 @@
+{
+    "type": "GenericCrafter",
+    "name": "Alpha Decay Chamber",
+    "description": "Takes advantage of thorium decaying into alpha particles",
+    "outputLiquid": {
+      "liquid": "alpha-particle",
+      "amount": 0.001
+    },
+    "drawer": {
+      "type": "DrawDefault"
+    },
+    "health": 600,
+    "itemCapacity": 10,
+    "size": 2,
+    "craftTime": 120,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 3,
+      "items": [
+        {
+          "item": "thorium",
+          "amount": 1
+        }
+      ],
+      "liquids": [
+        {
+          "liquid": "cryofluid",
+          "amount": 0.03
+        }
+      ]
+    },
+    "requirements": [
+        {
+          "item": "titanium",
+          "amount": 200
+        },
+        {
+          "item": "resistor",
+          "amount": 15
+        },
+        {
+          "item": "circuit-phase",
+          "amount": 15
+        },
+      ],
+    "research": "dpa-100",
+    "category": "crafting",
+    "researchCostMultiplier": 0.75
+  }
+  
