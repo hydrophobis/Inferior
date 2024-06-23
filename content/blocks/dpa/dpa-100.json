@@ -3,7 +3,7 @@
     "name": "DPA-100",
     "description": "Makes deuterium go very very fast",
     "outputItem": {
-      "item": "uranium",
+      "item": "uranium-234",
       "amount": 1
     },
     "drawer": {
