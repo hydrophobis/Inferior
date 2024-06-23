@@ -1,3 +1,7 @@
 Thorium to Neptunium, particle accel with helium
 
 Platinum processing chain
+
+Alpha Decay Chamber
+Requires 360 power/s and 3 thorium/s to produce 1 alpha particle/s
+Then use some sort of sealed conduit conveyor thingy to carry them to the particle accelerator
