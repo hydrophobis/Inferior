@@ -9,9 +9,9 @@
     "drawer": {
       "type": "DrawDefault"
     },
-    "health": 600,
-    "itemCapacity": 10,
-    "size": 2,
+    "health": 1200,
+    "itemCapacity": 15,
+    "size": 3,
     "craftTime": 6000,
     "hasPower": true,
     "hasLiquids": true,
