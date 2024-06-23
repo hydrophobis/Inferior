@@ -1,3 +1,15 @@
 {
-
-}
+    "name": "Alpha Particles",
+    "description": "Particles created from radioactive decay",
+    "heatCapacity": 0,
+    "explosiveness": 0,
+    "temperature": 0,
+    "gas": true,
+    "color": "E8D174",
+    "gasColor": "E8D174",
+    "flammability": 0,
+    "coolant": false,
+    "research": {
+      "parent": "thorium"
+    }
+  }
