@@ -34,27 +34,27 @@
     "requirements": [
         {
           "item": "copper",
-          "amount": 200
-        },
-        {
-          "item": "resistor",
-          "amount": 15
-        },
-        {
-          "item": "vacuum-tube",
-          "amount": 15
+          "amount": 800
         },
         {
           "item": "silicon",
+          "amount": 400
+        },
+        {
+          "item": "circuit-copper",
+          "amount": 20
+        },
+        {
+          "item": "circuit-lead",
           "amount": 15
         },
         {
-          "item": "wire",
-          "amount": 6
+          "item": "circuit-titanium",
+          "amount": 5
         }
       ],
-    "research": "circuit-phase-as",
+    "research": "alpha-decay-chamber",
     "category": "crafting",
-    "researchCostMultiplier": 0.25
+    "researchCostMultiplier": 0.75
   }
   
