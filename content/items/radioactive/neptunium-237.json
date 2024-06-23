@@ -1,0 +1,12 @@
+{
+    "name": "Neptunium-237",
+    "description": "Not recomended for consumption",
+    "cost": 2.5,
+    "color": "262626",
+    "flammability": 0,
+    "explosiveness": 0,
+    "radioactivity": 1.6,
+    "research": {
+      "parent": "depleted-thorium"
+    }
+}
