@@ -5,8 +5,8 @@
     "color": "262626",
     "flammability": 0,
     "explosiveness": 0,
-    "radioactivity": 0.2,
+    "radioactivity": 1.7,
     "research": {
-      "parent": "thorium"
+      "parent": "proactinium-233"
     }
 }
