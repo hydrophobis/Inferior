@@ -1,0 +1,20 @@
+{
+    "requirements": [
+        {
+            "item":"thorium",
+            "amount":24
+        },
+        {
+            "item":"uranium-233",
+            "amount":12
+        },
+        {
+            "item": "proactinium-233",
+            "amount":6
+        },
+        {
+            "item": "depleted-thorium",
+            "amount":3
+        }
+    ]
+}
