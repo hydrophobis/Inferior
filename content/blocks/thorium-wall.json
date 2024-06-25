@@ -1,0 +1,11 @@
+{
+    "requirements": [
+        {
+            "item": "thorium",
+            "amount": 6
+        },
+        {
+            "item": "proactinium-234",
+            "amount": 3
+        }
+}
