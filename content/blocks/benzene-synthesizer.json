@@ -21,7 +21,7 @@
             {
                 "type": "DrawLiquidRegion",
                 "suffix": "",
-                "liquid": "oil"
+                "liquid": "benzene"
             }
         ]
     },
