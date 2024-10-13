@@ -17,7 +17,7 @@
         "drawers": [
             {
                 "type": "DrawLiquidTile",
-                "drawLiquid": "oil",
+                "drawLiquid": "benzene",
                 "suffix": "-pool"
             },
             {
