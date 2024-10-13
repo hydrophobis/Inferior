@@ -1,1 +1,80 @@
 {
+    "type": "GenericCrafter",
+    "name": "Cumene Chamber",
+    "description": "Creates propylene from oil",
+    "outputLiquids": [
+        {
+            "liquid": "acetone",
+            "amount": 0.008
+        },
+        {
+            "liquid": "phenol",
+            "amount": 0.008
+        }
+    ],
+    "drawer":{
+        "type": "DrawMulti",
+        "drawers": [
+            {
+                "type": "DrawLiquidTile",
+                "drawLiquid": "ozone",
+                "suffix": "-pool"
+            },
+            {
+                "type": "DrawLiquidTile",
+                "drawLiquid": "benzene",
+                "suffix": "-pool"
+            },
+            {
+                "type": "DrawLiquidTile",
+                "drawLiquid": "propylene",
+                "suffix": "-pool"
+            },
+            {
+                "type": "DrawDefault"
+            }
+        ]
+    },
+    "health": 600,
+    "itemCapacity": 10,
+    "size": 2,
+    "craftTime": 600,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 0.5,
+      "liquids": [
+        {
+          "liquid": "oil",
+          "amount": 0.01666666
+        }
+      ]
+    },
+    "requirements": [
+        {
+          "item": "copper",
+          "amount": 200
+        },
+        {
+          "item": "resistor",
+          "amount": 15
+        },
+        {
+          "item": "vacuum-tube",
+          "amount": 15
+        },
+        {
+          "item": "silicon",
+          "amount": 15
+        },
+        {
+          "item": "wire",
+          "amount": 6
+        }
+      ],
+    "research": "circuit-phase-as",
+    "category": "crafting",
+    "researchCostMultiplier": 0.25
+  }
+  
