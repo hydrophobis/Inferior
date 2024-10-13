@@ -16,13 +16,9 @@
         "type": "DrawMulti",
         "drawers": [
             {
-                "type": "DrawRegion",
-                "suffix": "-bottom"
-            },
-            {
                 "type": "DrawLiquidTile",
                 "drawLiquid": "water",
-                "suffix": "-pool"
+                "suffix": ""
             },
             {
                 "type": "DrawDefault"
