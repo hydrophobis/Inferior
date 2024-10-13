@@ -12,16 +12,20 @@
             "amount": 0.00666666
         }
     ],
-    "drawer": {
+    "drawer":{
         "type": "DrawMulti",
         "drawers": [
             {
-                "type": "DrawDefault"
+                "type": "DrawRegion",
+                "suffix": "-bottom"
             },
             {
-                "type": "DrawLiquidRegion",
-                "suffix": "",
-                "liquid": "benzene"
+                "type": "DrawLiquidTile",
+                "drawLiquid": "water",
+                "suffix": "-pool"
+            },
+            {
+                "type": "DrawDefault"
             }
         ]
     },
