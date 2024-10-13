@@ -1,0 +1,14 @@
+{
+    "name": "Benzene",
+    "description": "Burnable liquid that is used in the production of PCBs",
+    "heatCapacity": 0,
+    "explosiveness": 0.2,
+    "temperature": 0.2,
+    "gas": false,
+    "color": "deff3a",
+    "flammability": 0.5,
+    "coolant": false,
+    "research": {
+      "parent": "oil"
+    }
+  }

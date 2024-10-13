@@ -1,0 +1,9 @@
+{
+    "name": "Salt",
+    "description": "Byproduct of Epiclorohydrin production",
+    "cost": 2.5,
+    "color": "fdfdfd",
+    "research": {
+      "parent": "pyratite"
+    }
+}

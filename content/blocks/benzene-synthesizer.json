@@ -1,0 +1,89 @@
+{
+    "type": "GenericCrafter",
+    "name": "Benzene Synthesizer",
+    "description": "Creates benzene from oil",
+    "outputLiquids": [
+        {
+            "liquid": "benzene",
+            "amount": 0.01
+        },
+        {
+            "liquid": "waste-gasses",
+            "amount": 0.00666666
+        }
+    ],
+    "draw": {
+        "DrawMulti": {
+        "drawers": [
+            {
+                "type": "DrawDefault"
+            },
+            {
+                "type": "DrawLiquidRegion",
+                "suffix": "",
+                "liquid": "oil"
+            }
+        ]
+        }
+    },
+    "health": 600,
+    "itemCapacity": 10,
+    "size": 2,
+    "craftTime": 600,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 2,
+      "items": [
+        {
+          "item": "wire",
+          "amount": 6
+        },
+        {
+          "item": "plastanium",
+          "amount": 3
+        },
+        {
+          "item": "circuit-surge",
+          "amount": 2
+        },
+        {
+          "item": "circuit-phase",
+          "amount": 1
+        }
+      ],
+      "liquids": [
+        {
+          "liquid": "solder",
+          "amount": 0.03
+        }
+      ]
+    },
+    "requirements": [
+        {
+          "item": "copper",
+          "amount": 200
+        },
+        {
+          "item": "resistor",
+          "amount": 15
+        },
+        {
+          "item": "vacuum-tube",
+          "amount": 15
+        },
+        {
+          "item": "silicon",
+          "amount": 15
+        },
+        {
+          "item": "wire",
+          "amount": 6
+        }
+      ],
+    "research": "circuit-phase-as",
+    "category": "crafting",
+    "researchCostMultiplier": 0.25
+  }
+  

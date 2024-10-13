@@ -1,0 +1,17 @@
+{
+    "name": "Chlorine",
+    "description": "Poisonous to organic life-forms",
+    "heatCapacity": 0,
+    "explosiveness": 0,
+    "temperature": 0.5,
+    "gas": true,
+    "color": "f2ee3a",
+    "gasColor": "f2ee3a",
+    "flammability": 3,
+    "coolant": false,
+    "research": {
+      "parent": "propylene"
+    },
+    "capPuddles": false,
+    "effect": "melting"
+}
