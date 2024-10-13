@@ -30,6 +30,10 @@
           {
             "item": "wafer",
             "amount":  4
+          },
+          {
+            "item": "neptunium-237"
+            "amount": 3
           }
         ]
       },
@@ -37,7 +41,7 @@
         "liquids": [
             {
                 "liquid": "solder",
-                "amount": 0.03
+                "amount": 0.04
             }
         ]
       }
@@ -74,5 +78,5 @@
     ],
     "category": "crafting",
     "research": "circuit-surge-as",
-    "researchCostMultiplier": 0.5
+    "researchCostMultiplier": 0.75
   }
