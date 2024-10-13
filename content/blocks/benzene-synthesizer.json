@@ -17,8 +17,8 @@
         "drawers": [
             {
                 "type": "DrawLiquidTile",
-                "drawLiquid": "water",
-                "suffix": ""
+                "drawLiquid": "oil",
+                "suffix": "-pool"
             },
             {
                 "type": "DrawDefault"
