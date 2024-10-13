@@ -41,16 +41,16 @@
           "amount": 1200
         },
         {
+          "item": "circuit-titanium",
+          "amount": 125
+        },
+        {
           "item": "circuit-plast",
           "amount": 80
         },
         {
           "item": "circuit-surge",
           "amount": 45
-        },
-        {
-          "item": "circuit-phase",
-          "amount": 25
         }
       ],
     "research": "dpa-300",
