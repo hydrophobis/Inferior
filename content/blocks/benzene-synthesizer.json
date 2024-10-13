@@ -12,8 +12,8 @@
             "amount": 0.00666666
         }
     ],
-    "draw": {
-        "DrawMulti": {
+    "drawer": {
+        "type": "DrawMulti",
         "drawers": [
             {
                 "type": "DrawDefault"
