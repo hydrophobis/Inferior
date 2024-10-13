@@ -34,28 +34,10 @@
     "hasItems": true,
     "consumes": {
       "power": 2,
-      "items": [
-        {
-          "item": "wire",
-          "amount": 6
-        },
-        {
-          "item": "plastanium",
-          "amount": 3
-        },
-        {
-          "item": "circuit-surge",
-          "amount": 2
-        },
-        {
-          "item": "circuit-phase",
-          "amount": 1
-        }
-      ],
       "liquids": [
         {
-          "liquid": "solder",
-          "amount": 0.03
+          "liquid": "oil",
+          "amount": 0.016666666
         }
       ]
     },
