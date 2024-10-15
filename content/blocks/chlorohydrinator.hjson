@@ -1,69 +1,74 @@
-    name: "Chlorohydrinator"
-    description: "Creates epichlorohydrin from propylene water chlorine and hydrogen"
-    outputItem: epichlorohydrin/1
-    drawer:{
-        type: DrawMulti
-        drawers: [
-            {
-                type: DrawLiquidTile
-                drawLiquid: propylene
-                suffix: -pool
-            }
-            {
-                type: DrawDefault
-            }
-        ]
-    }
-    health: 600
-    itemCapacity: 10
-    size: 2
-    craftTime: 600
-    hasPower: true
-    hasLiquids: true
-    hasItems: true
-    consumes: {
-      power: 0.5
-      liquids: [
-        {
-          liquid: propylene
-          amount: 0.001
-        }
-        {
-          liquid: water
-          amount: 0.001
-        }
-        {
-          liquid: chlorine
-          amount: 0.001
-        }
-        {
-          liquid: hydrogen
-          amount: 0.001
-        }
-      ]
-    }
-    requirements: [
-      { 
-        item: titanium
-        amount: 300 
-      }
-      { 
-        item: copper
-        amount: 150 
-      }
-      { 
-        item: surge-alloy
-        amount: 25 
-      }
-      { 
-        item: circuit-copper
-        amount: 15 
-      }
-      { 
-        item: circuit-titanium
-        amount: 3 
+{
+  "name": "Chlorohydrinator",
+  "description": "Creates epichlorohydrin from propylene water chlorine and hydrogen",
+  "outputItem": {
+    "item": "epichlorohydrin",
+    "amount": 1
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "propylene",
+        "suffix": "-pool"
+      },
+      {
+        "type": "DrawDefault"
       }
     ]
-    research: circuit-titanium-as
-    category: crafting
-    researchCostMultiplier: 0.25  
+  },
+  "health": 600,
+  "itemCapacity": 10,
+  "size": 2,
+  "craftTime": 600,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "consumes": {
+    "power": 0.5,
+    "liquids": [
+      {
+        "liquid": "propylene",
+        "amount": 0.001
+      },
+      {
+        "liquid": "water",
+        "amount": 0.001
+      },
+      {
+        "liquid": "chlorine",
+        "amount": 0.001
+      },
+      {
+        "liquid": "hydrogen",
+        "amount": 0.001
+      }
+    ]
+  },
+  "requirements": [
+    {
+      "item": "titanium",
+      "amount": 300
+    },
+    {
+      "item": "copper",
+      "amount": 150
+    },
+    {
+      "item": "surge-alloy",
+      "amount": 25
+    },
+    {
+      "item": "circuit-copper",
+      "amount": 15
+    },
+    {
+      "item": "circuit-titanium",
+      "amount": 3
+    }
+  ],
+  "research": "circuit-titanium-as",
+  "category": "crafting",
+  "researchCostMultiplier": 0.25
+}

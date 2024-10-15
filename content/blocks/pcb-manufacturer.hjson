@@ -1,75 +1,80 @@
-    name: "PCB Manufacturer"
-    description: "Manufactures Printed Circuit Boards for advanced electronics"
-    outputItem: pcb/1
-    drawer:{
-        type: DrawMulti
-        drawers: [
-            {
-                type: DrawLiquidTile
-                drawLiquid: chlorine
-                suffix: -pool
-            }
-            {
-                type: DrawLiquidTile
-                drawLiquid: hydrogen
-                suffix: -pool
-            }
-            {
-                type: DrawDefault
-            }
-        ]
-    }
-    health: 600
-    itemCapacity: 10
-    size: 2
-    craftTime: 600
-    hasPower: true
-    hasLiquids: true
-    hasItems: true
-    consumes: {
-      power: 0.5
-      liquids: [
+{
+    "name": "PCB Manufacturer",
+    "description": "Manufactures Printed Circuit Boards for advanced electronics",
+    "outputItem": {
+      "item": "pcb",
+      "amount": 1
+    },
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [
         {
-          liquid: propylene
-          amount: 0.001
-        }
+          "type": "DrawLiquidTile",
+          "drawLiquid": "chlorine",
+          "suffix": "-pool"
+        },
         {
-          liquid: water
-          amount: 0.001
-        }
+          "type": "DrawLiquidTile",
+          "drawLiquid": "hydrogen",
+          "suffix": "-pool"
+        },
         {
-          liquid: chlorine
-          amount: 0.001
-        }
-        {
-          liquid: hydrogen
-          amount: 0.001
+          "type": "DrawDefault"
         }
       ]
-    }
-    requirements: [
+    },
+    "health": 600,
+    "itemCapacity": 10,
+    "size": 2,
+    "craftTime": 600,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 0.5,
+      "liquids": [
         {
-            item: copper
-            amount: 300 
-        }
+          "liquid": "propylene",
+          "amount": 0.001
+        },
         {
-            item: lead
-            amount: 250 
-        }
+          "liquid": "water",
+          "amount": 0.001
+        },
         {
-            item: surge-alloy
-            amount: 75 
-        }
+          "liquid": "chlorine",
+          "amount": 0.001
+        },
         {
-            item: circuit-plast
-            amount: 5 
-        }
-        {
-            item: circuit-titanium
-            amount: 2 
+          "liquid": "hydrogen",
+          "amount": 0.001
         }
       ]
-    research: circuit-plast-as
-    category: crafting
-    researchCostMultiplier: 0.25
+    },
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 300
+      },
+      {
+        "item": "lead",
+        "amount": 250
+      },
+      {
+        "item": "surge-alloy",
+        "amount": 75
+      },
+      {
+        "item": "circuit-plast",
+        "amount": 5
+      },
+      {
+        "item": "circuit-titanium",
+        "amount": 2
+      }
+    ],
+    "research": "circuit-plast-as",
+    "category": "crafting",
+    "researchCostMultiplier": 0.25
+  }
   
