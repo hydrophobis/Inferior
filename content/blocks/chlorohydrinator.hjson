@@ -43,11 +43,11 @@
       ]
     }
     requirements: [
-        titanium/300
-        copper/150
-        surge-alloy/25
-        circuit-copper/15
-        circuit-titanium/3
+        {titanium/300}
+        {copper/150}
+        {surge-alloy/25}
+        {circuit-copper/15}
+        {circuit-titanium/3}
     ]
     research: circuit-titanium-as
     category: crafting
