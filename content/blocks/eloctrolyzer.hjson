@@ -7,18 +7,24 @@
         "ozone/0.05",
         "chlorine/0.01"
     ],
+    "liquidOutputDirections": [1, 3, 4],
     "drawer": {
       "type": "DrawMulti",
       "drawers": [
         {
           "type": "DrawLiquidTile",
           "drawLiquid": "ozone",
-          "suffix": "-pool"
+          "suffix": "-ozone"
         },
         {
           "type": "DrawLiquidTile",
           "drawLiquid": "hydrogen",
-          "suffix": "-pool"
+          "suffix": "-hydrogen"
+        },
+        {
+          "type": "DrawLiquidTile",
+          "drawLiquid": "chlorine",
+          "suffix": "-chlorine"
         },
         {
           "type": "DrawDefault"
