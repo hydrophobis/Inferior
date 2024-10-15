@@ -1,4 +1,5 @@
 {
+  "type": "GenericCrafter",
   "name": "Chlorohydrinator",
   "description": "Creates epichlorohydrin from propylene water chlorine and hydrogen",
   "outputItems": {

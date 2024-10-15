@@ -1,4 +1,5 @@
 {
+    "type": "GenericCrafter",
     "name": "Electrolyzer",
     "description": "Separates the hydrogen and oxygen in water",
     "outputLiquids": {
