@@ -2,6 +2,7 @@
     "type": "GenericCrafter",
     "name": "Electrolyzer",
     "description": "Separates the hydrogen and oxygen in water",
+    "squareSprite": false,
     "outputLiquids": [
         "hydrogen/0.05",
         "ozone/0.05",
