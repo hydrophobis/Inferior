@@ -2,14 +2,7 @@
   "type": "GenericCrafter",
   "name": "Chlorohydrinator",
   "description": "Creates epichlorohydrin from propylene water chlorine and hydrogen",
-  "outputItems": {
-    "items": [
-      {
-        "item": "epichlorohydrin",
-        "amount": 1
-      }
-    ]
-  },
+  "outputItem": "epichlorohydrin/1",
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
