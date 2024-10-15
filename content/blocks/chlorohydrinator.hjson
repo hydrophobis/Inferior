@@ -1,9 +1,13 @@
 {
   "name": "Chlorohydrinator",
   "description": "Creates epichlorohydrin from propylene water chlorine and hydrogen",
-  "outputItem": {
-    "item": "epichlorohydrin",
-    "amount": 1
+  "outputItems": {
+    "items": [
+      {
+        "item": "epichlorohydrin",
+        "amount": 1
+      }
+    ]
   },
   "drawer": {
     "type": "DrawMulti",

@@ -1,10 +1,14 @@
 {
     "name": "PCB Manufacturer",
     "description": "Manufactures Printed Circuit Boards for advanced electronics",
-    "outputItem": {
-      "item": "pcb",
-      "amount": 1
-    },
+    "outputItems": {
+        "items": [
+          {
+            "item": "pcb",
+            "amount": 1
+          }
+        ]
+      },
     "drawer": {
       "type": "DrawMulti",
       "drawers": [
