@@ -48,11 +48,26 @@
       ]
     }
     requirements: [
-        {copper/300}
-        {lead/250}
-        {surge-alloy/75}
-        {circuit-plast/5}
-        {circuit-titanium/2}
+        {
+            item: copper
+            amount: 300 
+        }
+        {
+            item: lead
+            amount: 250 
+        }
+        {
+            item: surge-alloy
+            amount: 75 
+        }
+        {
+            item: circuit-plast
+            amount: 5 
+        }
+        {
+            item: circuit-titanium
+            amount: 2 
+        }
       ]
     research: circuit-plast-as
     category: crafting

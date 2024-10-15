@@ -50,10 +50,22 @@
       ]
     }
     requirements: [
-        {titanium/450}
-        {wire/50}
-        {silicon/15}
-        {circuit-copper/3}
+        {
+            item: titanium
+            amount: 450 
+        }
+        {
+            item: wire
+            amount: 50 
+        }
+        {
+            item: silicon 
+            amount: 15 
+        }
+        {
+            item: circuit-copper
+            amount: 3 
+        }
     ]
     research: circuit-copper-as
     category: crafting
