@@ -1,0 +1,59 @@
+    name: "PCB Manufacturer"
+    description: "Manufactures Printed Circuit Boards for advanced electronics"
+    outputItems: {
+      items: [
+        pcb/1
+      ]
+    }
+    drawer:{
+        type: DrawMulti
+        drawers: [
+            {
+                type: DrawLiquidTile
+                drawLiquid: propylene
+                suffix: -pool
+            }
+            {
+                type: DrawDefault
+            }
+        ]
+    }
+    health: 600
+    itemCapacity: 10
+    size: 2
+    craftTime: 600
+    hasPower: true
+    hasLiquids: true
+    hasItems: true
+    consumes: {
+      power: 0.5
+      liquids: [
+        {
+          liquid: propylene
+          amount: 0.001
+        }
+        {
+          liquid: water
+          amount: 0.001
+        }
+        {
+          liquid: chlorine
+          amount: 0.001
+        }
+        {
+          liquid: hydrogen
+          amount: 0.001
+        }
+      ]
+    }
+    requirements: [
+        copper/200
+        resistor/15
+        vacuum-tube/25
+        silicon/15
+        wire/6
+      ]
+    research: circuit-phase-as
+    category: crafting
+    researchCostMultiplier: 0.25
+  

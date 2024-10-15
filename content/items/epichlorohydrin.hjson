@@ -1,0 +1,7 @@
+name: "Epichlorohydrin"
+cost: 1.2
+color: 000000
+research: {
+  parent: propylene
+}
+healthScaling: 2.1

@@ -1,0 +1,57 @@
+    name: "Electrolyzer"
+    description: "Seperates the hydrogen and oxygen in water"
+    outputLiquids: {
+      liquids: [
+        {
+            liquid: hydrogen
+            amount: 0.05
+        }
+        {
+            liquid: ozone
+            amount: 0.05
+        }
+      ]
+    }
+    drawer:{
+        type: DrawMulti
+        drawers: [
+            {
+                type: DrawLiquidTile
+                drawLiquid: ozone
+                suffix: -pool
+            }
+            {
+                type: DrawLiquidTile
+                drawLiquid: hydrogen
+                suffix: -pool
+            }
+            {
+                type: DrawDefault
+            }
+        ]
+    }
+    health: 600
+    size: 3
+    craftTime: 600
+    hasPower: true
+    hasLiquids: true
+    hasItems: false
+    consumes: {
+      power: 1
+      liquids: [
+        {
+          liquid: water
+          amount: 0.1
+        }
+      ]
+    }
+    requirements: [
+        copper/200
+        resistor/15
+        vacuum-tube/25
+        silicon/15
+        wire/6
+      ]
+    research: circuit-phase-as
+    category: crafting
+    researchCostMultiplier: 0.25

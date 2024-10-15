@@ -1,0 +1,7 @@
+name: "PCB"
+cost: 1.2
+color: 009900
+research: {
+  parent: epichlorohydrin
+}
+healthScaling: 0.1
