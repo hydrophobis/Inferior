@@ -10,6 +10,10 @@
             liquid: ozone
             amount: 0.05
         }
+        {
+            liquid: chlorine
+            amount: 0.01
+        }
       ]
     }
     drawer:{
@@ -46,12 +50,11 @@
       ]
     }
     requirements: [
-        copper/200
-        resistor/15
-        vacuum-tube/25
+        titanium/450
+        wire/50
         silicon/15
-        wire/6
-      ]
-    research: circuit-phase-as
+        circuit-copper/3
+    ]
+    research: circuit-copper-as
     category: crafting
     researchCostMultiplier: 0.25

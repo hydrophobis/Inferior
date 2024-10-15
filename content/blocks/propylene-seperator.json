@@ -42,28 +42,28 @@
       ]
     },
     "requirements": [
-        {
-          "item": "copper",
-          "amount": 200
-        },
-        {
-          "item": "resistor",
-          "amount": 15
-        },
-        {
-          "item": "vacuum-tube",
-          "amount": 15
-        },
-        {
-          "item": "silicon",
-          "amount": 15
-        },
-        {
-          "item": "wire",
-          "amount": 6
-        }
-      ],
-    "research": "circuit-phase-as",
+      {
+        "item": "copper",
+        "amount": 500
+      },
+      {
+        "item": "lead",
+        "amount": 300
+      },
+      {
+        "item": "silicon",
+        "amount": 100
+      },
+      {
+        "item": "circuit-lead",
+        "amount": 15
+      },
+      {
+        "item": "circuit-titanium",
+        "amount": 3
+      }
+    ],
+    "research": "circuit-titanium-as",
     "category": "crafting",
     "researchCostMultiplier": 0.25
   }

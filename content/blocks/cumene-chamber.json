@@ -57,27 +57,23 @@
     },
     "requirements": [
         {
+          "item": "lead",
+          "amount": 700
+        },
+        {
           "item": "copper",
-          "amount": 200
-        },
-        {
-          "item": "resistor",
-          "amount": 15
-        },
-        {
-          "item": "vacuum-tube",
-          "amount": 15
+          "amount": 120
         },
         {
           "item": "silicon",
-          "amount": 15
+          "amount": 75
         },
         {
-          "item": "wire",
-          "amount": 6
+          "item": "circuit-copper",
+          "amount": 1
         }
       ],
-    "research": "circuit-phase-as",
+    "research": "electrolyzer",
     "category": "crafting",
     "researchCostMultiplier": 0.25
   }

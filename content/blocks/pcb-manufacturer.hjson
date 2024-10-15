@@ -1,16 +1,17 @@
     name: "PCB Manufacturer"
     description: "Manufactures Printed Circuit Boards for advanced electronics"
-    outputItems: {
-      items: [
-        pcb/1
-      ]
-    }
+    outputItem: pcb/1
     drawer:{
         type: DrawMulti
         drawers: [
             {
                 type: DrawLiquidTile
-                drawLiquid: propylene
+                drawLiquid: chlorine
+                suffix: -pool
+            }
+            {
+                type: DrawLiquidTile
+                drawLiquid: hydrogen
                 suffix: -pool
             }
             {
@@ -47,13 +48,13 @@
       ]
     }
     requirements: [
-        copper/200
-        resistor/15
-        vacuum-tube/25
-        silicon/15
-        wire/6
+        copper/300
+        lead/250
+        surge-alloy/75
+        circuit-plast/5
+        circuit-titanium/2
       ]
-    research: circuit-phase-as
+    research: circuit-plast-as
     category: crafting
     researchCostMultiplier: 0.25
   
