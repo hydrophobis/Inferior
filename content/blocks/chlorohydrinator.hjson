@@ -1,5 +1,5 @@
     name: "Chlorohydrinator"
-    description: "Creates epichlorohydrin from propylene, water, chlorine, and hydrogen"
+    description: "Creates epichlorohydrin from propylene water chlorine and hydrogen"
     outputItem: epichlorohydrin/1
     drawer:{
         type: DrawMulti
@@ -43,11 +43,26 @@
       ]
     }
     requirements: [
-        {titanium/300}
-        {copper/150}
-        {surge-alloy/25}
-        {circuit-copper/15}
-        {circuit-titanium/3}
+      { 
+        item: titanium
+        amount: 300 
+      }
+      { 
+        item: copper
+        amount: 150 
+      }
+      { 
+        item: surge-alloy
+        amount: 25 
+      }
+      { 
+        item: circuit-copper
+        amount: 15 
+      }
+      { 
+        item: circuit-titanium
+        amount: 3 
+      }
     ]
     research: circuit-titanium-as
     category: crafting
