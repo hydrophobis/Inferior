@@ -1,10 +1,6 @@
     name: "Chlorohydrinator"
     description: "Creates epichlorohydrin from propylene, water, chlorine, and hydrogen"
-    outputItems: {
-      items: [
-        epichlorohydrin/1
-      ]
-    }
+    outputItem: epichlorohydrin/1
     drawer:{
         type: DrawMulti
         drawers: [
