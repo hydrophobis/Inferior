@@ -2,14 +2,7 @@
     "type": "GenericCrafter",
     "name": "PCB Manufacturer",
     "description": "Manufactures Printed Circuit Boards for advanced electronics",
-    "outputItems": {
-        "items": [
-          {
-            "item": "pcb",
-            "amount": 1
-          }
-        ]
-      },
+    "outputItem": "pcb/1",
     "drawer": {
       "type": "DrawMulti",
       "drawers": [

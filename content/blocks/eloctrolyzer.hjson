@@ -2,22 +2,11 @@
     "type": "GenericCrafter",
     "name": "Electrolyzer",
     "description": "Separates the hydrogen and oxygen in water",
-    "outputLiquids": {
-      "liquids": [
-        {
-          "liquid": "hydrogen",
-          "amount": 0.05
-        },
-        {
-          "liquid": "ozone",
-          "amount": 0.05
-        },
-        {
-          "liquid": "chlorine",
-          "amount": 0.01
-        }
-      ]
-    },
+    "outputLiquids": [
+        "hydrogen/0.05",
+        "ozone/0.05",
+        "chlorine/0.01"
+    ],
     "drawer": {
       "type": "DrawMulti",
       "drawers": [
