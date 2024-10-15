@@ -22,12 +22,12 @@
             },
             {
                 "type": "DrawLiquidTile",
-                "drawLiquid": "benzene",
+                "drawLiquid": "acetone",
                 "suffix": "-pool"
             },
             {
                 "type": "DrawLiquidTile",
-                "drawLiquid": "propylene",
+                "drawLiquid": "phenol",
                 "suffix": "-pool"
             },
             {
@@ -48,7 +48,10 @@
         {
           "liquid": "oil",
           "amount": 0.01666666
-        }
+        },
+        {
+          "liquid": "oil",
+          "amount": 0.015
       ]
     },
     "requirements": [
