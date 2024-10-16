@@ -10,7 +10,7 @@
     "flammability": 3,
     "coolant": false,
     "research": {
-      "parent": "propylene"
+      "parent": "water"
     },
     "capPuddles": false,
     "effect": "melting"

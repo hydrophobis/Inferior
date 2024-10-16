@@ -1,0 +1,14 @@
+{
+    "name": "Acetone",
+    "description": "Used in the production of PCBs",
+    "heatCapacity": 0,
+    "explosiveness": 0,
+    "temperature": 0.3,
+    "gas": false,
+    "color": "ff3d4a",
+    "flammability": 0,
+    "coolant": false,
+    "research": {
+      "parent": "oil"
+    }
+}

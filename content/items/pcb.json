@@ -3,7 +3,7 @@
   "cost": 1.2,
   "color": "009900",
   "research": {
-    "parent": "epichlorohydrin"
+    "parent": "epoxy-resin"
   },
   "healthScaling": 0.1
 }

@@ -2,7 +2,10 @@
   "type": "GenericCrafter",
   "name": "Chlorohydrinator",
   "description": "Creates epichlorohydrin from propylene water chlorine and hydrogen",
-  "outputItem": "epichlorohydrin/1",
+  "outputItems": [
+    "epichlorohydrin/1",
+    "salt/1"
+  ],
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -66,7 +69,7 @@
       "amount": 3
     }
   ],
-  "research": "circuit-titanium-as",
+  "research": "electrolyzer",
   "category": "crafting",
   "researchCostMultiplier": 0.25
 }

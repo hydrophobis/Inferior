@@ -1,7 +1,9 @@
-name: "Epichlorohydrin"
-cost: 1.2
-color: 000000
-research: {
-  parent: propylene
+{
+  "name": "Epichlorohydrin"
+  "cost": 1.2
+  "color": "000000"
+  "research": {
+    "parent": "propylene"
+  }
+  "healthScaling": 2.1
 }
-healthScaling: 2.1

@@ -13,12 +13,12 @@
       "type": "DrawMulti",
       "drawers": [
         {
-          "type": "DrawLiquidTile",
+          "type": "DrawLiquidRegion",
           "drawLiquid": "ozone",
           "suffix": "-ozone"
         },
         {
-          "type": "DrawLiquidTile",
+          "type": "DrawLiquidRegion",
           "drawLiquid": "hydrogen",
           "suffix": "-hydrogen"
         },

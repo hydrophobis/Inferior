@@ -1,21 +1,43 @@
 {
     "type": "GenericCrafter",
-    "name": "PCB Manufacturer",
-    "description": "Manufactures Printed Circuit Boards for advanced electronics",
-    "outputItem": "pcb/1",
+    "name": "Bisphenol-A Chamber",
+    "description": "Catalyzes various liquids into Bisphenol-A",
+    "outputLiquid": {
+        "liquid": "biphenol",
+        "amount": 0.6
+    },
     "drawer": {
       "type": "DrawMulti",
       "drawers": [
         {
           "type": "DrawLiquidTile",
           "drawLiquid": "chlorine",
-          "suffix": "-pool"
+          "suffix": "-pool",
+          "alpha": 0.2
         },
         {
           "type": "DrawLiquidTile",
           "drawLiquid": "hydrogen",
-          "suffix": "-pool"
+          "suffix": "-pool",
+          "alpha": 0.2
         },
+        {
+          "type": "DrawLiquidTile",
+          "drawLiquid": "phenol",
+          "suffix": "-pool",
+          "alpha": 0.2
+        },
+        {
+          "type": "DrawLiquidTile",
+          "drawLiquid": "acetone",
+          "suffix": "-pool",
+          "alpha": 0.2
+        },
+        {
+            "type": "DrawLiquidTile",
+            "drawLiquid": "bisphenol",
+            "suffix": "-pool"
+          },
         {
           "type": "DrawDefault"
         }
@@ -30,20 +52,23 @@
     "hasItems": true,
     "consumes": {
       "power": 0.5,
-			"items": [
-				"epoxy-resin/3",
-				"copper-silicate/2",
-				"copper/2"
-			],
       "liquids": [
         {
-					"liquid": "solder",
-					"amount": 0.4
-				},
+			"liquid": "phenol",
+			"amount": 0.15
+		},        
         {
-          "liquid": "bisphenol",
-          "amount": 0.6
-        }
+			"liquid": "acetone",
+			"amount": 0.15
+		},
+        {
+			"liquid": "hydrogen",
+			"amount": 0.15
+		},
+        {
+			"liquid": "chlorine",
+			"amount": 0.15
+		}
       ]
     },
     "requirements": [
@@ -68,7 +93,7 @@
         "amount": 2
       }
     ],
-    "research": "bpa-chamber",
+    "research": "chlorohydrinator",
     "category": "crafting",
     "researchCostMultiplier": 0.25
   }

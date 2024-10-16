@@ -1,1 +1,7 @@
-"name": "Epoxy Resin"
+{
+    "name": "Epoxy Resin",
+    "color": "626F9B",
+    "research": {
+        "parent": "epichlorohydrin"
+    }
+}
