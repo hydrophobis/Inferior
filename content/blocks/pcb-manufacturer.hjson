@@ -37,7 +37,7 @@
 			]
       "liquids": [
         {
-					"liquid": "solder/0.5"
+					"liquid": "solder/0.4"
 				}
       ]
     },
