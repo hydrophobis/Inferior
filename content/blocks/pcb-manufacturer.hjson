@@ -23,7 +23,7 @@
     },
     "health": 200,
     "itemCapacity": 10,
-    "size": 2,
+    "size": 3,
     "craftTime": 600,
     "hasPower": true,
     "hasLiquids": true,
