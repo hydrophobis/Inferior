@@ -21,7 +21,7 @@
         }
       ]
     },
-    "health": 600,
+    "health": 200,
     "itemCapacity": 10,
     "size": 2,
     "craftTime": 600,
