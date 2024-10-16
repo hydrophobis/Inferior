@@ -30,23 +30,15 @@
     "hasItems": true,
     "consumes": {
       "power": 0.5,
+			"items": [
+				"epoxy-resin/4",
+				"copper-silicate/2",
+				"copper/2"
+			]
       "liquids": [
         {
-          "liquid": "propylene",
-          "amount": 0.001
-        },
-        {
-          "liquid": "water",
-          "amount": 0.001
-        },
-        {
-          "liquid": "chlorine",
-          "amount": 0.001
-        },
-        {
-          "liquid": "hydrogen",
-          "amount": 0.001
-        }
+					"liquid": "solder/0.5"
+				}
       ]
     },
     "requirements": [
