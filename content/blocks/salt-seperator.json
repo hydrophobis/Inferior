@@ -1,26 +1,18 @@
 {
     "type": "GenericCrafter",
-    "name": "Electrolyzer",
-    "description": "Separates the hydrogen and oxygen in water",
+    "name": "Salt Seperator",
+    "description": "Separates the chlorineand sodium in salt, sodium is incinerated because it's useless",
     "squareSprite": false,
     "outputLiquids": [
-        "hydrogen/0.05",
-        "ozone/0.05"
+        "chlorine/0.05"
     ],
-    "outputItem": "salt/1",
-    "liquidOutputDirections": [2, 4],
     "drawer": {
       "type": "DrawMulti",
       "drawers": [
         {
           "type": "DrawLiquidTile",
-          "drawLiquid": "ozone",
-          "suffix": "-ozone"
-        },
-        {
-          "type": "DrawLiquidTile",
-          "drawLiquid": "hydrogen",
-          "suffix": "-hydrogen"
+          "drawLiquid": "chlorine",
+          "suffix": "-chlorine"
         },
         {
           "type": "DrawDefault"
@@ -28,17 +20,17 @@
       ]
     },
     "health": 600,
-    "size": 3,
+    "size": 2,
     "craftTime": 600,
     "hasPower": true,
     "hasLiquids": true,
     "hasItems": false,
     "consumes": {
       "power": 1,
-      "liquids": [
+      "items": [
         {
-          "liquid": "water",
-          "amount": 0.1
+          "item": "salt",
+          "amount": 1
         }
       ]
     },
@@ -49,18 +41,18 @@
       },
       {
         "item": "wire",
-        "amount": 50
+        "amount": 25
       },
       {
-        "item": "silicon",
+        "item": "surge-alloy",
         "amount": 15
       },
       {
-        "item": "circuit-copper",
+        "item": "circuit-lead",
         "amount": 3
       }
     ],
-    "research": "circuit-copper-as",
+    "research": "electrolyzer",
     "category": "crafting",
     "researchCostMultiplier": 0.25
   }
