@@ -37,7 +37,7 @@
 			],
       "liquids": [
         {
-					"liquid": "solder",
+					"liquid": "benzene",
 					"amount": 0.04
 				},
         {
