@@ -1,0 +1,66 @@
+{
+    "type": "GenericCrafter",
+    "name": "Epoxy Resin Factory",
+    "description": "Creates epoxy resin from epichlorohydrin and bisphenol-A",
+    "outputItems": [
+      "epoxy-resin/1"
+    ],
+    "drawer": {
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "DrawLiquidTile",
+          "drawLiquid": "bisphenol",
+          "suffix": "-pool"
+        },
+        {
+          "type": "DrawDefault"
+        }
+      ]
+    },
+    "health": 600,
+    "itemCapacity": 10,
+    "size": 2,
+    "craftTime": 600,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 0.5,
+      "liquids": [
+        {
+          "liquid": "bisphenol",
+          "amount": 0.0166666666666666666666666
+        }
+      ],
+      "items": [
+        "epichlorohydrin/1"
+      ]
+    },
+    "requirements": [
+      {
+        "item": "titanium",
+        "amount": 300
+      },
+      {
+        "item": "copper",
+        "amount": 150
+      },
+      {
+        "item": "surge-alloy",
+        "amount": 25
+      },
+      {
+        "item": "circuit-copper",
+        "amount": 15
+      },
+      {
+        "item": "circuit-titanium",
+        "amount": 3
+      }
+    ],
+    "research": "electrolyzer",
+    "category": "crafting",
+    "researchCostMultiplier": 0.25
+  }
+  
