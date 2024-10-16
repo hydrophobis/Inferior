@@ -55,19 +55,19 @@
       "liquids": [
         {
 			"liquid": "phenol",
-			"amount": 0.15
+			"amount": 0.05
 		},        
         {
 			"liquid": "acetone",
-			"amount": 0.15
+			"amount": 0.05
 		},
         {
 			"liquid": "hydrogen",
-			"amount": 0.15
+			"amount": 0.05
 		},
         {
 			"liquid": "chlorine",
-			"amount": 0.15
+			"amount": 0.05
 		}
       ]
     },
