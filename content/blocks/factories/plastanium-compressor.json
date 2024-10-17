@@ -40,5 +40,5 @@
         "amount": 0.0166666
         }
     ],
-    "liquidOutputDirections": [2, 3, 4, 1]
+    "liquidOutputDirections": [2, 1, 4, 3]
 }
