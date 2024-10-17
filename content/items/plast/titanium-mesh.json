@@ -1,0 +1,12 @@
+{
+    "name": "Meshed Titanium",
+    "description": "",
+    "cost": 2.5,
+    "color": "00BFFF",
+    "flammability": 0,
+    "explosiveness": 0,
+    "charge": 0,
+    "research": {
+      "parent": "titanium"
+    }
+}

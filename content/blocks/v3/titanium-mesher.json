@@ -1,0 +1,31 @@
+{
+    "type": "GenericCrafter",
+    "name": "Titanium Mesher",
+    "description": "Makes titanium into meshes",
+    "outputItems": [
+        "titanium-mesh/2"
+    ],
+    "health": 600,
+    "itemCapacity": 10,
+    "size": 2,
+    "craftTime": 600,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "consumes": {
+      "power": 0.5,
+      "items": [
+        "titanium/1"
+      ]
+    },
+    "requirements": [
+        {
+          "item": "copper",
+          "amount": 1
+        }
+      ],
+    "research": "bpa-chamber",
+    "category": "crafting",
+    "researchCostMultiplier": 0.25
+  }
+  

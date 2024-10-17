@@ -1,4 +1,21 @@
 {
+    "consumes": {
+        "power": 3,
+        "items": [
+            "pvc/1",
+            "titanium-mesh/2"
+        ],
+        "liquids": [
+            {
+                "liquid": "glue",
+                "amount": 0.007
+            },
+            {
+                "liquid": "oil",
+                "amount": 0.01
+            }
+        ]
+    },
     "outputItems": [
         {
         "item": "pure-carbon",
@@ -22,5 +39,6 @@
         "liquid": "liquid-plastanium",
         "amount": 0.0166666
         }
-    ]
+    ],
+    "liquidOutputDirections": [2, 3, 4, 1]
 }
