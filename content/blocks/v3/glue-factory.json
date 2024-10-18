@@ -14,17 +14,20 @@
             {
                 "type": "DrawLiquidRegion",
                 "drawLiquid": "glue",
+                "liquid": "glue",
                 "suffix": "-glue"
             },
             {
                 "type": "DrawLiquidRegion",
                 "drawLiquid": "acetone",
+                "liquid": "acetone",
                 "suffix": "-acetone",
                 "alpha": 0.3
             },
             {
                 "type": "DrawLiquidRegion",
                 "drawLiquid": "bisphenol",
+                "liquid": "bisphenol",
                 "suffix": "-bisphenol",
                 "alpha": 0.3
             },
