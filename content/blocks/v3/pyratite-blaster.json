@@ -1,13 +1,13 @@
 {
     "type": "GenericCrafter",
-    "name": "Pyratite Sulfizer",
-    "description": "Mixes sulfur and pyratite to make it more flammable",
-    "outputItem": {"item": "sulfized-pyratite", "amount": 2},
+    "name": "Pyratite Blaster",
+    "description": "Mixes blast compound and sulfized pyratite to make it more explosive",
+    "outputItem": {"item": "blasted-pyratite", "amount": 2},
     "drawer": {"type": "DrawDefault"},
     "health": 600,
     "itemCapacity": 10,
     "size": 2,
-    "craftTime": 40,
+    "craftTime": 30,
     "hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
@@ -16,17 +16,13 @@
       "items": {
         "items": [
           {
-            "item": "pyratite",
+            "item": "sulfized-pyratite",
+            "amount": 1
+          },
+          {
+            "item": "blast-compound",
             "amount": 1
           }
-        ]
-      },
-      "liquids": {
-        "liquids": [
-            {
-                "liquid": "sulfur",
-                "amount": 0.01566666666
-            }
         ]
       }
     },
@@ -40,7 +36,7 @@
         "amount": 15
       },
       {
-        "item": "circuit-copper",
+        "item": "circuit-lead",
         "amount": 4
       },
       {
@@ -49,6 +45,6 @@
       }
     ],
     "category": "crafting",
-    "research": "pyratite-mixer",
+    "research": "pyratite-sulfizer",
     "researchCostMultiplier": 0.25
   }

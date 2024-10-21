@@ -1,0 +1,11 @@
+{
+    "name": "Blasted Pyratite",
+    "description": "Sulfized pyratite infused with blast compound powder",
+    "cost": 2.5,
+    "color": "ffaa5f",
+    "flammability": 3.5,
+    "explosiveness": 6,
+    "research": {
+      "parent": "sulfized-pyratite"
+    }
+}
