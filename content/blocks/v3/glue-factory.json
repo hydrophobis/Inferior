@@ -12,20 +12,20 @@
         "type": "DrawMulti",
         "drawers": [
             {
-                "type": "DrawLiquidRegion",
+                "type": "DrawLiquidTile",
                 "drawLiquid": "glue",
                 "liquid": "glue",
                 "suffix": "-glue"
             },
             {
-                "type": "DrawLiquidRegion",
+                "type": "DrawLiquidTile",
                 "drawLiquid": "acetone",
                 "liquid": "acetone",
                 "suffix": "-acetone",
                 "alpha": 0.3
             },
             {
-                "type": "DrawLiquidRegion",
+                "type": "DrawLiquidTile",
                 "drawLiquid": "bisphenol",
                 "liquid": "bisphenol",
                 "suffix": "-bisphenol",
