@@ -3,11 +3,11 @@
     "description": "Burnable liquid that is used in the production of PCBs",
     "heatCapacity": 0,
     "explosiveness": 0.2,
-    "temperature": 0.2,
+    "temperature": 0.15,
     "gas": false,
     "color": "62ae7f",
     "flammability": 0.5,
-    "coolant": false,
+    "coolant": true,
     "research": {
       "parent": "oil"
     }
