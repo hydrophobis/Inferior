@@ -6,7 +6,7 @@
     "temperature": 0.15,
     "gas": false,
     "color": "62ae7f",
-    "flammability": 0.5,
+    "flammability": 3.1,
     "coolant": true,
     "research": {
       "parent": "oil"
